@@ -1,0 +1,3545 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-26 22:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: automated_refund_system/job_charge_extractor.py:11
+msgid "Please provide the original price for each order item by referencing the receipt."
+msgstr ""
+
+#: automated_refund_system/job_charge_extractor.py:15
+msgid "Make sure that the original price for each order item is not negative."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:27
+#, python-brace-format
+msgctxt "given customer credit/refund policy does not apply to the policy types"
+msgid "This policy does not call for a {policy_types}."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:31
+#, python-brace-format
+msgctxt "credit refund policy amount constraints"
+msgid " ({limit})"
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:35
+#, python-brace-format
+msgctxt "credit refund policy amount per order item constraints"
+msgid " ({limit} per item)"
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:39
+msgctxt "credit refund policy type"
+msgid "delivery fee credit"
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:43
+msgctxt "credit refund policy type"
+msgid "single-use delivery fee credit"
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:47
+msgctxt "credit refund policy type"
+msgid "general credit"
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:51
+msgctxt "credit refund policy type"
+msgid "refund"
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:114
+#, python-brace-format
+msgctxt "credit refund policy description message"
+msgid "at least {min_val}"
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:118
+#, python-brace-format
+msgctxt "credit refund policy description message"
+msgid "not exceeding {max_val}"
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:123
+#, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {delivery_credit_description} of {amount}."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:127
+#, python-format, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {delivery_credit_description} of {pct}% of the delivery fee{cap_description}."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:132
+#, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {general_credit_description} of {amount}."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:136
+#, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {general_credit_description} of {amount} or a {general_credit_description} equal to the order total (whichever is smaller)."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:142
+#, python-format, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {general_credit_description} of {pct}% of the order subtotal{cap_description}."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:147
+#, python-format, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {refund_description} of {pct}% of the order subtotal{cap_description}."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:152
+#, python-format, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {refund_description} of {pct}% of the delivery fee{cap_description}."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:157
+#, python-format, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {refund_description} of {pct}% of the small cart fee{cap_description}."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:162
+#, python-format, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {refund_description} of {pct}% of the affected order item(s){cap_description}."
+msgstr ""
+
+#: automated_refund_system/policy_descriptions.py:167
+#, python-format, python-brace-format
+msgctxt "credit refund policy description template"
+msgid "Issue a {refund_description} of {pct}% of the order total{cap_description}."
+msgstr ""
+
+#: automated_refund_system/refund_credit_reason.py:185
+#, python-format
+msgid "Please select the {} reason instead since you have selected all order items to apply a policy with 100% refund without a max."
+msgstr ""
+
+#: credit_refund/views/calculated.py:130
+msgctxt "calculated refund and credit request response"
+msgid "The given job is not found."
+msgstr ""
+
+#: credit_refund/views/calculated.py:134
+msgctxt "calculated refund and credit request response"
+msgid "The requested refund amount is invalid."
+msgstr ""
+
+#: credit_refund/views/calculated.py:138
+msgctxt "calculated refund and credit request response"
+msgid "The requested refund currency type is invalid."
+msgstr ""
+
+#: credit_refund/views/calculated.py:142
+#, python-brace-format
+msgctxt "calculated refund and credit request response"
+msgid "Requested refund amount of {requested_total_amount} does not match amount of {calculated_total_amount} calculated by the server."
+msgstr ""
+
+#: credit_refund/views/calculated.py:147
+#, python-brace-format
+msgctxt "calculated refund and credit request response"
+msgid "Requested delivery fee credit of {requested_delivery_fee_credit} does not match credit of {calculated_delivery_fee_credit} calculated by the server."
+msgstr ""
+
+#: credit_refund/views/calculated.py:153
+#, python-brace-format
+msgctxt "calculated refund and credit request response"
+msgid "Requested refund of currency type {requested_currency_type} does not match the currency type {calculated_currency_type} calculated by the server."
+msgstr ""
+
+#: credit_refund/views/calculated.py:159
+msgctxt "calculated refund and credit request response"
+msgid "Refund is not recommended for a job that has been credited previously."
+msgstr ""
+
+#: credit_refund/views/calculated.py:163
+msgctxt "calculated refund and credit request response"
+msgid "Unsupported credit refund reason."
+msgstr ""
+
+#: credit_refund/views/calculated.py:167
+msgctxt "calculated refund and credit request response"
+msgid "An item-level refund is not recommended for a non-price authority job without estimated tax rate."
+msgstr ""
+
+#: credit_refund/views/calculated.py:172
+msgctxt "calculated refund and credit request response"
+msgid "Refund is not recommended for a cancelled job."
+msgstr ""
+
+#: credit_refund/views/calculated.py:177
+msgctxt "calculated refund and credit request response: refund is not recommended for a job where customer is not available(CNA)"
+msgid "Refund is not recommended for a job that is \"confirmed\" or \"likely\" CNA."
+msgstr ""
+
+#: credit_refund/views/calculated.py:180
+msgid "Credit/Refund for this customer has been rejected due to abuse/fraud"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:33
+msgctxt "customer cancel order dialog title"
+msgid "Why are you cancelling?"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:37
+msgctxt "customer cancel order dialog body"
+msgid "Help us improve"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:41
+msgctxt "customer cancel order confirmation dialog title"
+msgid "Are You Sure?"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:48
+msgctxt "confirmation message to make sure customer has received sms message sent"
+msgid "Did you receive our message?"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:52
+msgid "Your order has not been placed so there is no charge to cancel. Any credits (if applicable) will be added back to your account for use on your next order."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:57
+#, python-brace-format
+msgid "Your order is being prepared. If you cancel now, you will be charged for your order and optionally a cancellation fee totaling ${itemized_charge_total}. Any credits (if applicable) will be added back to your account for use on your next order."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:63
+#, python-brace-format
+msgid "Your order is being prepared. If you cancel now, you will be charged a cancellation fee totaling ${itemized_charge_total} and the items will be returned. Any credits (if applicable) will be added back to your account for use on your next delivery."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:70
+msgid "Your order is currently on its way to you. If you cancel now, you will be charged in full for your order today. Any credits (if applicable) will be added back to your account for use on your next delivery."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:76
+#, python-brace-format
+msgid "Your order is currently on its way to you. If you cancel now, you will be charged a cancellation fee totaling ${itemized_charge_total} and the items will be returned. Any credits (if applicable) will be added back to your account for use on your next delivery."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:83
+msgid "Any credits (if applicable) will be added back to your account for use on your next order."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:90
+#, python-brace-format
+msgid "An item you chose is unavailable. You can choose a substitute using the message sent to {dropoff_phone_number} or cancel free of charge."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:99
+msgid "An item you chose is not available. You can choose a substitute using the message sent to the phone number associated with your delivery address or cancel free of charge."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:107
+msgctxt "response when customer attempts to cancel order"
+msgid "Sorry! This order is unable to be cancelled."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:111
+msgctxt "response when customer attempts to cancel order"
+msgid "This order has been completed and is unable to be cancelled."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:115
+msgctxt "response when customer attempts to cancel order"
+msgid "We are already working to cancel this order."
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:129
+msgctxt "Customer cancel price confirmation itemized charge"
+msgid "Subtotal"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:133
+msgctxt "Customer cancel price confirmation itemized charge"
+msgid "Small Cart Fee"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:137
+msgctxt "Customer cancel price confirmation itemized charge"
+msgid "Taxes & Fees"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:141
+msgctxt "Customer cancel price confirmation itemized charge"
+msgid "Delivery"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:145
+msgctxt "Customer cancel price confirmation itemized charge"
+msgid "Cancellation Fee"
+msgstr ""
+
+#: customer_cancel/cancellation_handler.py:149
+msgctxt "Customer cancel price confirmation itemized charge"
+msgid "Total"
+msgstr ""
+
+#: help_center/models.py:51
+msgid "Please update to the latest app version to submit this issue."
+msgstr ""
+
+#: help_center/models.py:75
+msgid "We don't recognize this phone number. Please enter a valid phone number."
+msgstr ""
+
+#: help_center/views/issue_views.py:123
+msgid "Issue Successfully Submitted!"
+msgstr ""
+
+#: help_center/views/issue_views.py:126
+msgid "We are here to help! We will contact you by phone or email once we have investigated the issue."
+msgstr ""
+
+#: help_center/views/issue_views.py:131
+msgid "We've refunded your order"
+msgstr ""
+
+#: help_center/views/issue_views.py:134
+msgid "We've refunded your order and applied a delivery fee credit"
+msgstr ""
+
+#: help_center/views/issue_views.py:137
+#, python-brace-format
+msgid "We've refunded your order and provided {general_credit_amount} in credit"
+msgstr ""
+
+#: help_center/views/issue_views.py:140
+#, python-brace-format
+msgid "We've refunded your order and provided {total_credit_amount} in credit"
+msgstr ""
+
+#: help_center/views/issue_views.py:143
+#, python-brace-format
+msgid "We've processed a {refund_amount} refund"
+msgstr ""
+
+#: help_center/views/issue_views.py:146
+#, python-brace-format
+msgid "We've processed a {refund_amount} refund and applied a delivery fee credit"
+msgstr ""
+
+#: help_center/views/issue_views.py:150
+#, python-brace-format
+msgid "We've processed a {refund_amount} refund and applied {general_credit_amount} in credit"
+msgstr ""
+
+#: help_center/views/issue_views.py:154
+#, python-brace-format
+msgid "We've processed a {refund_amount} refund and applied {total_credit_amount} in credit"
+msgstr ""
+
+#: help_center/views/issue_views.py:158
+#, python-brace-format
+msgid "We've applied a {delivery_credit_amount} delivery fee credit"
+msgstr ""
+
+#: help_center/views/issue_views.py:161
+#, python-brace-format
+msgid "We've applied a {general_credit_amount} credit"
+msgstr ""
+
+#: help_center/views/issue_views.py:164
+#, python-brace-format
+msgid "We've applied a {total_credit_amount} credit"
+msgstr ""
+
+#: help_center/views/issue_views.py:168
+msgid "Thanks for letting us know about what went wrong. We're so sorry this happened!"
+msgstr ""
+
+#: help_center/views/issue_views.py:173
+#, python-brace-format
+msgid "To make things right, we've gone ahead and {action}."
+msgstr ""
+
+#: help_center/views/issue_views.py:177
+msgid "Be on the lookout for a confirmation email from us."
+msgstr ""
+
+#: help_center/views/issue_views.py:182
+msgid "refunded your order"
+msgstr ""
+
+#: help_center/views/issue_views.py:186
+msgid "refunded your order and applied a delivery fee credit to your account"
+msgstr ""
+
+#: help_center/views/issue_views.py:190 help_center/views/issue_views.py:194
+msgid "refunded your order and credited your account for the inconvenience"
+msgstr ""
+
+#: help_center/views/issue_views.py:198
+msgid "applied this refund to your order"
+msgstr ""
+
+#: help_center/views/issue_views.py:202
+msgid "applied this refund and applied a delivery fee credit to your account"
+msgstr ""
+
+#: help_center/views/issue_views.py:206 help_center/views/issue_views.py:210
+msgid "applied this refund and credited your account for the inconvenience"
+msgstr ""
+
+#: help_center/views/issue_views.py:214 help_center/views/issue_views.py:218
+#: help_center/views/issue_views.py:222
+msgid "credited your account"
+msgstr ""
+
+#: help_center/views/issue_views.py:227
+msgid "Sorry to hear about your experience. We'll contact you by e-mail or phone after investigating your issue."
+msgstr ""
+
+#: help_center/views/issue_views.py:232
+msgid "Thanks for letting us know.  We'll contact you by e-mail or phone after investigating your issue."
+msgstr ""
+
+#: help_center/views/issue_views.py:237
+msgid "Thanks for letting us know, we'll notify the customer."
+msgstr ""
+
+#: help_center/views/issue_views.py:244
+msgid "We have temporarily paused new orders for this location. Please complete all existing orders."
+msgstr ""
+
+#: help_center/views/issue_views.py:250
+msgid "Looks like you've already requested support for this order. Please reply to your email if there's anything else you'd like us to know."
+msgstr ""
+
+#: help_center/views/issue_views.py:260
+msgid "Your order's status has changed. Please review the new cost summary and retry."
+msgstr ""
+
+#: help_center/views/issue_views.py:270
+msgctxt "confirmation of successful of buyer initialized order cancellation"
+msgid "Your order has been cancelled"
+msgstr ""
+
+#: help_center/views/issue_views.py:274
+msgctxt "text of button if user wants to learn more about customer cancel process"
+msgid "Learn More"
+msgstr ""
+
+#: help_center/views/issue_views.py:278
+msgctxt "text of a button to dismiss a dialog or warning message"
+msgid "Okay"
+msgstr ""
+
+#: issue_submission/components/alert.py:17
+msgid "This order is over 48 hours old and may be subjected to more restrictive guidelines. Learn more about our policy in the Help Center, or continue filing a support request."
+msgstr ""
+
+#: issue_submission/components/alert.py:25
+msgctxt "help center articles url button text"
+msgid "Help Center"
+msgstr ""
+
+#: issue_submission/components/customer_cancel.py:17
+msgctxt "prompt asking customer the reason why want to cancel the order"
+msgid "Changed My Mind"
+msgstr ""
+
+#: issue_submission/components/customer_cancel.py:21
+msgctxt "prompt asking customer the reason why want to cancel the order"
+msgid "Won't Be Here"
+msgstr ""
+
+#: issue_submission/components/customer_cancel.py:25
+msgctxt "prompt asking customer the reason why want to cancel the order"
+msgid "Other"
+msgstr ""
+
+#: issue_submission/components/issue_group.py:49
+msgctxt "entire order issue category for merchants"
+msgid "Cancel Order"
+msgstr ""
+
+#: issue_submission/components/issue_group.py:54
+msgctxt "item issue category for merchants"
+msgid "Item Unavailable"
+msgstr ""
+
+#: issue_submission/components/issue_group.py:61
+msgctxt "product issues category for merchants"
+msgid "Product Issues"
+msgstr ""
+
+#: issue_submission/components/issue_group.py:65
+msgctxt "special instruction issues category for merchants"
+msgid "Special Instruction Issues"
+msgstr ""
+
+#: issue_submission/components/issue_group.py:69
+msgctxt "modifier choice issues category for merchants"
+msgid "Modifier Choice Issues"
+msgstr ""
+
+#: issue_submission/components/issue_group.py:73
+msgctxt "modifier unavailable issue category for merchants"
+msgid "Modifier Unavailable"
+msgstr ""
+
+#: issue_submission/components/message.py:56
+msgctxt "Message to display to user for old orders"
+msgid "This order is over 48 hours old and may be subjected to more restrictive guidelines."
+msgstr ""
+
+#: issue_submission/components/strings.py:10
+msgctxt "issue option for customer to report"
+msgid "Delivery never arrived"
+msgstr ""
+
+#: issue_submission/components/strings.py:14
+msgctxt "issue option for customer to report"
+msgid "Delivery was late"
+msgstr ""
+
+#: issue_submission/components/strings.py:18
+msgctxt "issue option for customer to report"
+msgid "Questions about pending charges"
+msgstr ""
+
+#: issue_submission/components/strings.py:22
+msgctxt "issue option for customer to report"
+msgid "Promo code issue"
+msgstr ""
+
+#: issue_submission/components/strings.py:26
+msgctxt "promo deflection issue"
+msgid "Was a promo code applied to my order?"
+msgstr ""
+
+#: issue_submission/components/strings.py:30
+msgctxt "cancel reason deflection issue"
+msgid "Was I charged for this order?"
+msgstr ""
+
+#: issue_submission/components/strings.py:34
+#, python-brace-format
+msgctxt "cancel reason deflection issue"
+msgid "Why was I charged {amount} for this order?"
+msgstr ""
+
+#: issue_submission/components/strings.py:38
+msgctxt "cancel reason deflection issue"
+msgid "Why wasn't I charged for this order?"
+msgstr ""
+
+#: issue_submission/components/strings.py:42
+msgctxt "cancel Postmates subscription deflection issue"
+msgid "Cancel my Postmates Unlimited subscription"
+msgstr ""
+
+#: issue_submission/components/strings.py:46
+msgctxt "change email deflection issue"
+msgid "How do I change my email?"
+msgstr ""
+
+#: issue_submission/components/strings.py:50
+msgctxt "trust and safety overview deflection issue"
+msgid "Trust and Safety Overview"
+msgstr ""
+
+#: issue_submission/components/strings.py:54
+msgctxt "community standards deflection issue"
+msgid "Community Standards"
+msgstr ""
+
+#: issue_submission/components/strings.py:58
+msgctxt "zero tolerance deflection issue"
+msgid "Zero-Tolerance Policy"
+msgstr ""
+
+#: issue_submission/components/strings.py:62
+msgctxt "anti discrimination policy deflection issue"
+msgid "Anti-Discrimination Policy"
+msgstr ""
+
+#: issue_submission/components/strings.py:66
+msgctxt "hold on account deflection issue"
+msgid "Why is there a hold placed on my account?"
+msgstr ""
+
+#: issue_submission/components/strings.py:70
+msgctxt "hold disputed charges deflection issue"
+msgid "A hold was placed on my account to a disputed payment, what do I do?"
+msgstr ""
+
+#: issue_submission/components/strings.py:74
+msgctxt "pay past due deflection issue"
+msgid "How can I pay a past due balance on my Postmates account?"
+msgstr ""
+
+#: issue_submission/components/strings.py:78
+msgctxt "apply promo code deflection issue"
+msgid "How can I apply a promo code?"
+msgstr ""
+
+#: issue_submission/components/strings.py:82
+msgctxt "ppu trials deflection issue"
+msgid "Postmates Unlimited Free Trials"
+msgstr ""
+
+#: issue_submission/components/strings.py:86
+msgctxt "what is ppu deflection issue"
+msgid "What is Postmates Unlimited?"
+msgstr ""
+
+#: issue_submission/components/strings.py:91
+msgctxt "estimate final different deflection issue"
+msgid "Why is there sometimes a price difference between my order estimate and the final amount?"
+msgstr ""
+
+#: issue_submission/components/strings.py:96
+msgctxt "new city deflection issue"
+msgid "What cities is Postmates in?"
+msgstr ""
+
+#: issue_submission/components/strings.py:100
+msgctxt "app review deflection issue"
+msgid "Were you asked to follow up regarding your app review?"
+msgstr ""
+
+#: issue_submission/components/strings.py:105
+msgctxt "issue option for customer to report"
+msgid "Items damaged, missing, or incorrect"
+msgstr ""
+
+#: issue_submission/components/strings.py:110
+msgctxt "issue option for customer to report"
+msgid "Damaged during delivery"
+msgstr ""
+
+#: issue_submission/components/strings.py:114
+msgctxt "issue option for customer to report"
+msgid "Missing from order"
+msgstr ""
+
+#: issue_submission/components/strings.py:118
+msgctxt "issue option for customer to report"
+msgid "Prepared incorrectly"
+msgstr ""
+
+#: issue_submission/components/strings.py:122
+msgctxt "issue option for customer to report"
+msgid "Poor food quality"
+msgstr ""
+
+#: issue_submission/components/strings.py:126
+msgctxt "issue option for customer to report"
+msgid "Something else"
+msgstr ""
+
+#: issue_submission/components/strings.py:131
+msgctxt "issue option for customer to report"
+msgid "Something is wrong"
+msgstr ""
+
+#: issue_submission/components/strings.py:136
+msgctxt "issue option for customer to report"
+msgid "Report a safety issue"
+msgstr ""
+
+#: issue_submission/components/strings.py:142
+msgctxt "issue option for customer to report"
+msgid "Did not receive this item"
+msgstr ""
+
+#: issue_submission/components/strings.py:146
+msgctxt "issue option for customer to report"
+msgid "Did not order this item"
+msgstr ""
+
+#: issue_submission/components/strings.py:150
+msgctxt "issue option for customer to report"
+msgid "Missing side item"
+msgstr ""
+
+#: issue_submission/components/strings.py:154
+msgctxt "issue option for customer to report"
+msgid "Missing condiment, sauce, or dressing"
+msgstr ""
+
+#: issue_submission/components/strings.py:158
+msgctxt "issue option for customer to report"
+msgid "Missing utensils"
+msgstr ""
+
+#: issue_submission/components/strings.py:164
+msgctxt "issue option for customer to report"
+msgid "Missing topping or ingredient"
+msgstr ""
+
+#: issue_submission/components/strings.py:168
+msgctxt "issue option for customer to report"
+msgid "Undercooked or overcooked"
+msgstr ""
+
+#: issue_submission/components/strings.py:172
+msgctxt "issue option for customer to report"
+msgid "Received wrong size item"
+msgstr ""
+
+#: issue_submission/components/strings.py:176
+msgctxt "issue option for customer to report"
+msgid "Received wrong quantity of item"
+msgstr ""
+
+#: issue_submission/components/strings.py:180
+msgctxt "issue option for customer to report"
+msgid "Allergic to one of the ingredients"
+msgstr ""
+
+#: issue_submission/components/strings.py:184
+msgctxt "issue option for customer to report"
+msgid "Special instructions not followed"
+msgstr ""
+
+#: issue_submission/components/strings.py:190
+msgctxt "issue option for customer to report"
+msgid "Item arrived cold"
+msgstr ""
+
+#: issue_submission/components/strings.py:194
+msgctxt "issue option for customer to report"
+msgid "Did not like taste"
+msgstr ""
+
+#: issue_submission/components/strings.py:198
+msgctxt "issue option for customer to report"
+msgid "Portion size did not meet expectations"
+msgstr ""
+
+#: issue_submission/components/strings.py:202
+msgctxt "issue option for customer to report"
+msgid "Foreign object in food"
+msgstr ""
+
+#: issue_submission/components/strings.py:208
+msgctxt "issue option for customer to report"
+msgid "Item partially damaged"
+msgstr ""
+
+#: issue_submission/components/strings.py:212
+msgctxt "issue option for customer to report"
+msgid "Item fully damaged"
+msgstr ""
+
+#: issue_submission/components/strings.py:221
+msgctxt "issue option for merchant to report"
+msgid "Store Closed"
+msgstr ""
+
+#: issue_submission/components/strings.py:225
+msgctxt "issue option for merchant to report"
+msgid "Too Busy"
+msgstr ""
+
+#: issue_submission/components/strings.py:229
+msgctxt "issue option for merchant to report"
+msgid "Other Issue"
+msgstr ""
+
+#: issue_submission/components/strings.py:234
+msgctxt "issue option for merchant to report"
+msgid "Unavailable Today"
+msgstr ""
+
+#: issue_submission/components/strings.py:238
+msgctxt "issue option for merchant to report"
+msgid "Unavailable Indefinitely"
+msgstr ""
+
+#: issue_submission/components/strings.py:242
+msgctxt "issue option for merchant to report"
+msgid "Change Price"
+msgstr ""
+
+#: issue_submission/components/strings.py:246
+msgctxt "issue option for merchant to report"
+msgid "Set New Price"
+msgstr ""
+
+#: issue_submission/components/strings.py:250
+msgctxt "issue option for merchant to report"
+msgid "Special Instructions"
+msgstr ""
+
+#: issue_submission/components/strings.py:255
+msgctxt "issue option for merchant to report"
+msgid "Add Charge"
+msgstr ""
+
+#: issue_submission/components/strings.py:259
+msgctxt "issue option for merchant to report"
+msgid "Can't Honor"
+msgstr ""
+
+#: issue_submission/components/strings.py:263
+#, python-brace-format
+msgctxt "title string for delivery discount in percent"
+msgid "{percent}% OFF on order"
+msgstr ""
+
+#: issue_submission/components/strings.py:267
+#, python-brace-format
+msgctxt "title string for delivery discount in percent"
+msgid "{percent}% OFF on delivery fee"
+msgstr ""
+
+#: issue_submission/components/strings.py:271
+#, python-brace-format
+msgctxt "title string for order discount in amount"
+msgid "{amount} OFF on order"
+msgstr ""
+
+#: issue_submission/components/strings.py:275
+#, python-brace-format
+msgctxt "title string for delivery discount in amount"
+msgid "{amount} OFF on delivery fee"
+msgstr ""
+
+#: issue_submission/components/strings.py:283
+msgctxt "synced signal issue text"
+msgid "PM Standing Still"
+msgstr ""
+
+#: issue_submission/components/strings.py:287
+msgctxt "synced signal issue text"
+msgid "PS - PM is running late to Pickup (ETA Drift)"
+msgstr ""
+
+#: issue_submission/components/strings.py:291
+msgctxt "synced signal issue text"
+msgid "PI - PM is running late to Pickup (ETA Drift)"
+msgstr ""
+
+#: issue_submission/components/strings.py:295
+msgctxt "synced signal issue text"
+msgid "DS - PM is running late to Dropoff (ETA Drift)"
+msgstr ""
+
+#: issue_submission/components/strings.py:299
+msgctxt "synced signal issue text"
+msgid "DI - PM is running late to Dropoff (ETA Drift)"
+msgstr ""
+
+#: issue_submission/components/strings.py:304
+msgctxt "synced signal issue text"
+msgid "PM triggered imminent, but drove away"
+msgstr ""
+
+#: issue_submission/components/strings.py:308
+msgctxt "synced signal issue text"
+msgid "Completed pickup too fast"
+msgstr ""
+
+#: issue_submission/components/strings.py:312
+msgctxt "synced signal issue text"
+msgid "Completed dropoff too fast"
+msgstr ""
+
+#: issue_submission/components/strings.py:316
+msgctxt "synced signal issue text"
+msgid "Completed pickup, not imminent"
+msgstr ""
+
+#: issue_submission/components/strings.py:320
+msgctxt "synced signal issue text"
+msgid "Completed dropoff, not imminent"
+msgstr ""
+
+#: issue_submission/components/strings.py:326
+#, python-brace-format
+msgid ""
+"\n"
+"    Your card was temporarily authorized for {pre_auth_amount} for your order from {place_name}.\n"
+"    The final total will be posted to your account within 24 hours of delivery completion.\n"
+"    "
+msgstr ""
+
+#: issue_submission/components/strings.py:333
+#, python-brace-format
+msgid ""
+"\n"
+"    You received an order discount of {general_credit} and delivery discount of {delivery_fee_credit} on your order from {place_name}.\n"
+"    "
+msgstr ""
+
+#: issue_submission/components/strings.py:339
+msgid ""
+"\n"
+"    Sorry, there were no promotions applied to this order.\n"
+"    "
+msgstr ""
+
+#: issue_submission/components/strings.py:346
+#, python-brace-format
+msgctxt "base template for buyer cancellation explanation"
+msgid "We are sorry you decided to cancel your order. We processed your cancellation on {cancel_date_string}."
+msgstr ""
+
+#: issue_submission/components/strings.py:351
+#, python-brace-format
+msgid ""
+"\n"
+"    {cx_cancel_base_template}\n"
+"\n"
+"    You were charged {total_cost} for the cancelled order.\n"
+"    "
+msgstr ""
+
+#: issue_submission/components/strings.py:360
+#, python-brace-format
+msgid ""
+"\n"
+"        {cx_cancel_base_template}\n"
+"\n"
+"        You were not charged for this order, and the temporary authorization on your credit card will be credited back to your account within 7 business days from {cancel_date_string}.\n"
+"        "
+msgstr ""
+
+#: issue_submission/components/strings.py:370
+#, python-brace-format
+msgid ""
+"\n"
+"        We weren't able to fulfill your order and canceled it on {cancel_date_string}. We've added a {general_credit} future credit to your account for the inconvenience.\n"
+"        {admin_cancel_message}\n"
+"        You were not charged for this order, and the temporary authorization on your credit card will be credited back to your account within 7 business days from {cancel_date_string}. Again, we're sorry for the inconvenience and thank you for choosing Postmates.\n"
+"        "
+msgstr ""
+
+#: issue_submission/components/strings.py:380
+#, python-brace-format
+msgid ""
+"\n"
+"        We weren't able to fulfill your order and canceled it on {cancel_date_string}. We're sorry for the inconvenience.\n"
+"        {admin_cancel_message}\n"
+"        You were not charged for this order, and the temporary authorization on your credit card will be credited back to your account within 7 business days from {cancel_date_string}. Thank you for choosing Postmates.\n"
+"        "
+msgstr ""
+
+#: issue_submission/components/strings.py:390
+msgctxt "Explanation for order cancellation"
+msgid "The merchant did not have your requested item in stock. We sent you a text message asking to select a replacement item, but we did not receive a response in time. If you did not receive the text message, please check the phone number associated with your delivery address."
+msgstr ""
+
+#: issue_submission/components/strings.py:397
+msgctxt "Explanation for order cancellation"
+msgid "The merchant was closed. We will continue to work with our merchants to make sure their hours of operation are up-to-date in our systems."
+msgstr ""
+
+#: issue_submission/components/strings.py:402
+msgctxt "Explanation for order cancellation"
+msgid "The merchant was unable to fulfill your order in time."
+msgstr ""
+
+#: issue_submission/components/strings.py:406
+msgctxt "Explanation for order cancellation"
+msgid "The merchant was unavailable to accept orders at this time."
+msgstr ""
+
+#: issue_submission/components/strings.py:410
+msgctxt "Explanation for order cancellation"
+msgid "Your order was damaged during delivery and couldn't be completed."
+msgstr ""
+
+#: issue_submission/components/strings.py:414
+msgctxt "Explanation for order cancellation"
+msgid "We had a system issue making payment to the merchant."
+msgstr ""
+
+#: issue_submission/components/strings.py:418
+msgctxt "Explanation for order cancellation"
+msgid "Your Postmate had an emergency and was unable to complete your delivery."
+msgstr ""
+
+#: issue_submission/components/strings.py:422
+msgctxt "Explanation for order cancellation"
+msgid "Your Postmate reported that item(s) ordered violate our terms."
+msgstr ""
+
+#: issue_submission/components/strings.py:426
+msgctxt "Explanation for order cancellation"
+msgid "We were unable to find a Postmate in your area to complete your delivery."
+msgstr ""
+
+#: issue_submission/components/strings.py:430
+msgctxt "Explanation for order cancellation"
+msgid "The merchant was unable to accept credit cards during the time you placed your order."
+msgstr ""
+
+#: issue_submission/components/strings.py:435
+msgctxt "Explanation for order cancellation"
+msgid "The merchant was closed or changed locations."
+msgstr ""
+
+#: issue_submission/components/strings.py:439
+msgctxt "Explanation for order cancellation"
+msgid "We were unable to place the order with the merchant at this time."
+msgstr ""
+
+#: issue_submission/components/strings.py:443
+msgctxt "Explanation for order cancellation"
+msgid "The merchant was unable to honor the special instructions on your order. We sent you a text message asking which action to take, but we did not receive a response in time. If you did not receive the text message, please check the phone number associated with your delivery address."
+msgstr ""
+
+#: issue_submission/components/strings.py:450
+msgctxt "Explanation for order cancellation"
+msgid "The merchant was unable to honor the special instructions that you provided at the quoted item price. We sent you a text message asking which action to take, but we did not receive a response in time. If you did not receive the text message, please check the phone number associated with your delivery address."
+msgstr ""
+
+#: issue_submission/components/strings.py:461
+msgctxt "issue option for customer to report"
+msgid "Can I change my delivery address?"
+msgstr ""
+
+#: issue_submission/components/strings.py:465
+msgctxt "issue option for customer to report"
+msgid "Why can't I submit another support request?"
+msgstr ""
+
+#: issue_submission/components/strings.py:469
+msgctxt "issue option for customer to report"
+msgid "How can I contact my Postmate?"
+msgstr ""
+
+#: issue_submission/components/strings.py:473
+msgctxt "issue option for customer to report"
+msgid "Final total different than expected"
+msgstr ""
+
+#: issue_submission/components/strings.py:479
+msgctxt "label string for issue state opened"
+msgid "In-Review"
+msgstr ""
+
+#: issue_submission/components/strings.py:483
+msgctxt "label string for issue state Closed"
+msgid "Resolved"
+msgstr ""
+
+#: issue_submission/components/strings.py:489
+#, python-brace-format
+msgctxt "message for total cost"
+msgid "Total: {amount}"
+msgstr ""
+
+#: issue_submission/components/strings.py:493
+msgctxt "message for total cost not charged"
+msgid "Not Charged"
+msgstr ""
+
+#: issue_submission/components/strings.py:497
+#, python-brace-format
+msgctxt "message for customer service credit applied"
+msgid "{amount} Customer Service Credit Applied"
+msgstr ""
+
+#: issue_submission/components/strings.py:502
+msgctxt "label message to show when fetching jobs from PM failed."
+msgid "Sorry, we were unable to load the past deliveries."
+msgstr ""
+
+#: issue_submission/components/strings.py:508
+msgctxt "label message to show when fetching credits from PM failed."
+msgid "Sorry, we were unable to load the account credit data. Please try later."
+msgstr ""
+
+#: issue_submission/components/strings.py:513
+msgctxt "label message to show when fetching gift cards from PM failed."
+msgid "Sorry, we were unable to load the gift card data. Please try later."
+msgstr ""
+
+#: issue_submission/components/strings.py:518
+msgctxt "label message to show when fetching promotions from PM failed."
+msgid "Sorry, we were unable to load the promotion data. Please try later."
+msgstr ""
+
+#: issue_submission/components/strings.py:523
+msgctxt "label message to show when no credits available."
+msgid "No available credits."
+msgstr ""
+
+#: issue_submission/components/strings.py:528
+msgctxt "label message to show when no gift cards available."
+msgid "No available gift cards."
+msgstr ""
+
+#: issue_submission/components/strings.py:533
+msgctxt "label message to show when no promotions available."
+msgid "No available promotions."
+msgstr ""
+
+#: issue_submission/components/strings.py:539
+#, python-brace-format
+msgctxt "message to show when there is no search result"
+msgid "Sorry, no results for '{search_string}'. Please try again using another search keyword."
+msgstr ""
+
+#: issue_submission/components/strings.py:546
+msgctxt "label for recent orders page."
+msgid "Recent orders"
+msgstr ""
+
+#: issue_submission/components/strings.py:551
+msgctxt "order picker page title"
+msgid "Please select the order you need help with."
+msgstr ""
+
+#: issue_submission/components/strings.py:556
+msgctxt "label for popular answers page."
+msgid "Popular answers"
+msgstr ""
+
+#: issue_submission/components/strings.py:561
+msgctxt "label for help topics page."
+msgid "Browse help topics"
+msgstr ""
+
+#: issue_submission/components/strings.py:566
+msgctxt "label for order items page."
+msgid "Choose the items you had issues with."
+msgstr ""
+
+#: issue_submission/components/strings.py:571
+msgctxt "label for item issues page."
+msgid "What was wrong?"
+msgstr ""
+
+#: issue_submission/components/strings.py:576
+msgctxt "label for general help landing page"
+msgid "Help"
+msgstr ""
+
+#: issue_submission/components/strings.py:581
+msgctxt "issue option for customer to report"
+msgid "Change items in my order"
+msgstr ""
+
+#: issue_submission/components/strings.py:585
+msgctxt "issue option for customer to report"
+msgid "Where is my order?"
+msgstr ""
+
+#: issue_submission/components/strings.py:589
+msgctxt "issue option for customer to report"
+msgid "Can I cancel my order?"
+msgstr ""
+
+#: issue_submission/components/strings.py:593
+msgctxt "issue option for customer to report"
+msgid "How will I get a receipt for my order?"
+msgstr ""
+
+#: issue_submission/components/strings.py:597
+msgctxt "selector and title for email contact form"
+msgid "Contact us"
+msgstr ""
+
+#: issue_submission/components/strings.py:601
+msgctxt "issue option for customer to report"
+msgid "Help"
+msgstr ""
+
+#: issue_submission/components/strings.py:605
+msgctxt "Contact us issue submission page title"
+msgid "Help yourself or report your issue."
+msgstr ""
+
+#: issue_submission/components/strings.py:610
+msgctxt "Search results page title"
+msgid "Search results"
+msgstr ""
+
+#: issue_submission/components/strings.py:614
+msgctxt "contact us l1 page title for 4.2 above"
+msgid "What can we help you with?"
+msgstr ""
+
+#: issue_submission/components/strings.py:618
+msgctxt "contact us l2 page title for 4.2 above"
+msgid "Tell us more about your issue."
+msgstr ""
+
+#: issue_submission/components/strings.py:625
+msgctxt "issue option for customer to report"
+msgid "Where do I go to pick up my order?"
+msgstr ""
+
+#: issue_submission/components/strings.py:629
+msgctxt "issue option for customer to report"
+msgid "My pickup order was missing an item, damaged or incorrect"
+msgstr ""
+
+#: issue_submission/components/strings.py:633
+msgctxt "issue option for customer to report"
+msgid "My pickup order was not prepared when I arrived"
+msgstr ""
+
+#: issue_submission/components/strings.py:637
+msgctxt "issue option for customer to report"
+msgid "Food quality for my pickup order was poor"
+msgstr ""
+
+#: issue_submission/components/strings.py:641
+msgctxt "issue option for customer to report"
+msgid "I missed my order for pickup"
+msgstr ""
+
+#: issue_submission/components/strings.py:645
+msgctxt "issue option for customer to report"
+msgid "Can I change my pickup order to delivery?"
+msgstr ""
+
+#: issue_submission/components/strings.py:652
+msgctxt "label for link to see all items"
+msgid "View all"
+msgstr ""
+
+#: issue_submission/components/strings.py:657
+msgctxt "label for form-submission button"
+msgid "Submit"
+msgstr ""
+
+#: issue_submission/components/strings.py:662
+msgctxt "label for a \"report issue\" button"
+msgid "Report issue"
+msgstr ""
+
+#: issue_submission/components/strings.py:667
+msgctxt "label for a \"back\" button"
+msgid "Back"
+msgstr ""
+
+#: issue_submission/components/strings.py:671
+msgctxt "label for a \"validate\" button"
+msgid "Validate"
+msgstr ""
+
+#: issue_submission/components/strings.py:677
+msgctxt "message for customer login for more personalized help content"
+msgid "Log in for personalized help"
+msgstr ""
+
+#: issue_submission/components/strings.py:683
+msgctxt "label for credits page."
+msgid "Credits"
+msgstr ""
+
+#: issue_submission/components/strings.py:688
+msgctxt "label for credits page."
+msgid "Gift Cards"
+msgstr ""
+
+#: issue_submission/components/strings.py:693
+msgctxt "label for credits page."
+msgid "Promotions"
+msgstr ""
+
+#: issue_submission/components/strings.py:698
+msgctxt "label for credits page."
+msgid "Your credits, gift cards, and promotions balance"
+msgstr ""
+
+#: issue_submission/components/strings.py:703
+msgctxt "label for issue-submission reason"
+msgid "Account"
+msgstr ""
+
+#: issue_submission/components/strings.py:705
+msgctxt "label for issue-submission reason"
+msgid "Order"
+msgstr ""
+
+#: issue_submission/components/strings.py:707
+msgctxt "label for issue-submission reason"
+msgid "Charges"
+msgstr ""
+
+#: issue_submission/components/strings.py:709
+msgctxt "label for issue-submission reason"
+msgid "Postmates services"
+msgstr ""
+
+#: issue_submission/components/strings.py:711
+msgctxt "label for issue-submission reason"
+msgid "Report a safety issue"
+msgstr ""
+
+#: issue_submission/components/strings.py:714
+msgctxt "label for issue-submission reason"
+msgid "Cancel Postmates Unlimited subscription"
+msgstr ""
+
+#: issue_submission/components/strings.py:716
+msgctxt "label for issue-submission reason"
+msgid "Change email address"
+msgstr ""
+
+#: issue_submission/components/strings.py:718
+msgctxt "label for issue-submission reason"
+msgid "Delete account"
+msgstr ""
+
+#: issue_submission/components/strings.py:720
+msgctxt "label for issue-submission reason"
+msgid "Security/privacy concern"
+msgstr ""
+
+#: issue_submission/components/strings.py:722
+msgctxt "label for issue-submission reason"
+msgid "Suspended account"
+msgstr ""
+
+#: issue_submission/components/strings.py:724
+msgctxt "label for issue-submission reason"
+msgid "Other"
+msgstr ""
+
+#: issue_submission/components/strings.py:726
+msgctxt "label for issue-submission reason"
+msgid "Order status"
+msgstr ""
+
+#: issue_submission/components/strings.py:728
+msgctxt "label for issue-submission reason"
+msgid "Change delivery address"
+msgstr ""
+
+#: issue_submission/components/strings.py:730
+msgctxt "label for issue-submission reason"
+msgid "Change order"
+msgstr ""
+
+#: issue_submission/components/strings.py:732
+msgctxt "label for issue-submission reason"
+msgid "Cancel order"
+msgstr ""
+
+#: issue_submission/components/strings.py:734
+msgctxt "label for issue-submission reason"
+msgid "Multiple charges"
+msgstr ""
+
+#: issue_submission/components/strings.py:736
+msgctxt "label for issue-submission reason"
+msgid "Overcharged"
+msgstr ""
+
+#: issue_submission/components/strings.py:739
+msgctxt "label for issue-submission reason"
+msgid "I'm being charged and I don't have an account with Postmates"
+msgstr ""
+
+#: issue_submission/components/strings.py:742
+msgctxt "label for issue-submission reason"
+msgid "I canceled my order but am still showing charges"
+msgstr ""
+
+#: issue_submission/components/strings.py:747
+msgctxt "label for issue-submission reason"
+msgid "I have an unauthorized charge of $9.99/$83.88"
+msgstr ""
+
+#: issue_submission/components/strings.py:749
+msgctxt "label for issue-submission reason"
+msgid "I want Postmates in my city!"
+msgstr ""
+
+#: issue_submission/components/strings.py:751
+msgctxt "label for issue-submission reason"
+msgid "App review follow-up"
+msgstr ""
+
+#: issue_submission/components/strings.py:753
+msgctxt "label for issue-submission reason"
+msgid "Harassment"
+msgstr ""
+
+#: issue_submission/components/strings.py:755
+msgctxt "label for issue-submission reason"
+msgid "Unwanted contact"
+msgstr ""
+
+#: issue_submission/components/strings.py:757
+msgctxt "label for issue-submission reason"
+msgid "Theft or property damage"
+msgstr ""
+
+#: issue_submission/components/strings.py:759
+msgctxt "label for issue-submission reason"
+msgid "Bad experience on an order"
+msgstr ""
+
+#: issue_submission/components/strings.py:761
+msgctxt "label for issue-submission reason"
+msgid "Bad experience with a Postmate"
+msgstr ""
+
+#: issue_submission/components/strings.py:763
+msgctxt "label for issue-submission reason"
+msgid "Negative support experience"
+msgstr ""
+
+#: issue_submission/components/strings.py:765
+msgctxt "label for issue-submission reason"
+msgid "Issues with my account"
+msgstr ""
+
+#: issue_submission/components/strings.py:767
+msgctxt "label for country dropdown menu"
+msgid "United States"
+msgstr ""
+
+#: issue_submission/components/strings.py:769
+msgctxt "label for country dropdown menu"
+msgid "Mexico"
+msgstr ""
+
+#: issue_submission/components/strings.py:773
+#, python-brace-format
+msgctxt "label for contact us faq issue submission detail input textarea"
+msgid "{l1_issue_type_text}: {l2_issue_type_text}"
+msgstr ""
+
+#: issue_submission/components/strings.py:778
+msgctxt "label for dropdown menu"
+msgid "How can we help you?"
+msgstr ""
+
+#: issue_submission/components/strings.py:782
+msgctxt "label for dropdown menu"
+msgid "Please select a topic."
+msgstr ""
+
+#: issue_submission/components/strings.py:786
+msgctxt "label for dropdown menu"
+msgid "Please tell us why you want to delete your account so we can improve our experience."
+msgstr ""
+
+#: issue_submission/components/strings.py:791
+msgctxt "label for dropdown menu"
+msgid "Country"
+msgstr ""
+
+#: issue_submission/components/strings.py:796
+msgctxt "label for page component that links to another page"
+msgid "Email"
+msgstr ""
+
+#: issue_submission/components/strings.py:801
+msgctxt "label for link component"
+msgid "Cancel subscription"
+msgstr ""
+
+#: issue_submission/components/strings.py:807
+msgctxt "placeholder text for basic input text box"
+msgid "Please enter the details of your request. A member of our support staff will respond as soon as possible."
+msgstr ""
+
+#: issue_submission/components/strings.py:814
+msgctxt "placeholder text for basic input text box"
+msgid "Please share details in English."
+msgstr ""
+
+#: issue_submission/components/strings.py:818
+msgctxt "placeholder text for basic input text box"
+msgid "Please share details."
+msgstr ""
+
+#: issue_submission/components/strings.py:824
+msgctxt "placeholder text for basic input text box"
+msgid "Please tell us more about what went wrong in English."
+msgstr ""
+
+#: issue_submission/components/strings.py:828
+msgctxt "placeholder text for basic input text box"
+msgid "Please tell us more about what went wrong."
+msgstr ""
+
+#: issue_submission/components/strings.py:835
+msgctxt "placeholder text for basic input text box"
+msgid "Please enter any additional details in English."
+msgstr ""
+
+#: issue_submission/components/strings.py:839
+msgctxt "placeholder text for basic input text box"
+msgid "Please enter any additional details."
+msgstr ""
+
+#: issue_submission/components/strings.py:844
+msgctxt "label text for phone number input text box"
+msgid "Phone number"
+msgstr ""
+
+#: issue_submission/components/strings.py:847
+msgctxt "label text for email input text box"
+msgid "Email"
+msgstr ""
+
+#: issue_submission/components/strings.py:850
+msgctxt "label text for first name input text box"
+msgid "First name"
+msgstr ""
+
+#: issue_submission/components/strings.py:853
+msgctxt "label text for last name input text box"
+msgid "Last name"
+msgstr ""
+
+#: issue_submission/components/strings.py:857
+msgctxt "separator to use between hierarchical categories"
+msgid " --> "
+msgstr ""
+
+#: issue_submission/components/strings.py:861
+msgctxt "label text for comment box for contact form"
+msgid "Comment"
+msgstr ""
+
+#: issue_submission/components/strings.py:867
+msgctxt "label for issue-submission reason"
+msgid "Merchant Closed"
+msgstr ""
+
+#: issue_submission/components/strings.py:869
+msgctxt "label for issue-submission reason"
+msgid "Wrong Merchant Address"
+msgstr ""
+
+#: issue_submission/components/strings.py:871
+msgctxt "label for issue-submission reason"
+msgid "Customer Not Available"
+msgstr ""
+
+#: issue_submission/components/strings.py:873
+msgctxt "label for issue-submission reason"
+msgid "Wrong Dropoff Address"
+msgstr ""
+
+#: issue_submission/components/strings.py:875
+msgctxt "label for issue-submission reason"
+msgid "Blitz Questions"
+msgstr ""
+
+#: issue_submission/components/strings.py:877
+msgctxt "label for issue-submission reason"
+msgid "Hot Spots"
+msgstr ""
+
+#: issue_submission/components/strings.py:879
+msgctxt "label for issue-submission reason"
+msgid "Cancelled/Replanned Delivery"
+msgstr ""
+
+#: issue_submission/components/strings.py:881
+msgctxt "label for issue-submission reason"
+msgid "Delivery Feedback"
+msgstr ""
+
+#: issue_submission/components/strings.py:883
+msgctxt "label for issue-submission reason"
+msgid "Merchant Feedback"
+msgstr ""
+
+#: issue_submission/components/strings.py:885
+msgctxt "label for issue-submission reason"
+msgid "My Rating"
+msgstr ""
+
+#: issue_submission/components/strings.py:887
+msgctxt "label for issue-submission reason"
+msgid "Low Rating Warning"
+msgstr ""
+
+#: issue_submission/components/strings.py:889
+msgctxt "label for issue-submission reason"
+msgid "Update Email"
+msgstr ""
+
+#: issue_submission/components/strings.py:891
+msgctxt "label for issue-submission reason"
+msgid "Password Reset"
+msgstr ""
+
+#: issue_submission/components/strings.py:893
+msgctxt "label for issue-submission reason"
+msgid "Vehicle Change Request"
+msgstr ""
+
+#: issue_submission/components/strings.py:895
+msgctxt "label for issue-submission reason"
+msgid "Address Update"
+msgstr ""
+
+#: issue_submission/components/strings.py:897
+msgctxt "label for issue-submission reason"
+msgid "Name Change"
+msgstr ""
+
+#: issue_submission/components/strings.py:899
+msgctxt "label for issue-submission reason"
+msgid "Profile Photo Change"
+msgstr ""
+
+#: issue_submission/components/strings.py:901
+msgctxt "label for issue-submission reason"
+msgid "Phone Number Update"
+msgstr ""
+
+#: issue_submission/components/strings.py:903
+msgctxt "label for issue-submission reason"
+msgid "Change Bank Account"
+msgstr ""
+
+#: issue_submission/components/strings.py:905
+msgctxt "label for issue-submission reason"
+msgid "Account Status"
+msgstr ""
+
+#: issue_submission/components/strings.py:907
+msgctxt "label for issue-submission reason"
+msgid "Account Suspension"
+msgstr ""
+
+#: issue_submission/components/strings.py:909
+msgctxt "label for issue-submission reason"
+msgid "Account Close Request"
+msgstr ""
+
+#: issue_submission/components/strings.py:911
+msgctxt "label for issue-submission reason"
+msgid "Update Account Information"
+msgstr ""
+
+#: issue_submission/components/strings.py:913
+msgctxt "label for issue-submission reason"
+msgid "Tax Form 1099"
+msgstr ""
+
+#: issue_submission/components/strings.py:915
+msgctxt "label for issue-submission reason"
+msgid "Background Check Status"
+msgstr ""
+
+#: issue_submission/components/strings.py:917
+msgctxt "label for issue-submission reason"
+msgid "Welcome Kit"
+msgstr ""
+
+#: issue_submission/components/strings.py:919
+msgctxt "label for issue-submission reason"
+msgid "Market Change Request"
+msgstr ""
+
+#: issue_submission/components/strings.py:921
+msgctxt "label for issue-submission reason"
+msgid "Direct Deposit Setup"
+msgstr ""
+
+#: issue_submission/components/strings.py:923
+msgctxt "label for issue-submission reason"
+msgid "Unable to Register Device"
+msgstr ""
+
+#: issue_submission/components/strings.py:925
+msgctxt "label for issue-submission reason"
+msgid "Missing Earnings"
+msgstr ""
+
+#: issue_submission/components/strings.py:927
+msgctxt "label for issue-submission reason"
+msgid "Wait Time Incorrect"
+msgstr ""
+
+#: issue_submission/components/strings.py:929
+msgctxt "label for issue-submission reason"
+msgid "Cancelled Delivery"
+msgstr ""
+
+#: issue_submission/components/strings.py:931
+msgctxt "label for issue-submission reason"
+msgid "Chained/Batched Deliveries"
+msgstr ""
+
+#: issue_submission/components/strings.py:933
+msgctxt "label for issue-submission reason"
+msgid "Blitz Not Applied"
+msgstr ""
+
+#: issue_submission/components/strings.py:935
+msgctxt "label for issue-submission reason"
+msgid "Weekly Earnings Summary"
+msgstr ""
+
+#: issue_submission/components/strings.py:937
+msgctxt "label for issue-submission reason"
+msgid "Bonus Questions"
+msgstr ""
+
+#: issue_submission/components/strings.py:939
+msgctxt "label for issue-submission reason"
+msgid "Bonus Earnings"
+msgstr ""
+
+#: issue_submission/components/strings.py:941
+msgctxt "label for issue-submission reason"
+msgid "Setup"
+msgstr ""
+
+#: issue_submission/components/strings.py:943
+msgctxt "label for issue-submission reason"
+msgid "Payout Delay"
+msgstr ""
+
+#: issue_submission/components/strings.py:945
+msgctxt "label for issue-submission reason"
+msgid "Reimbursement"
+msgstr ""
+
+#: issue_submission/components/strings.py:947
+msgctxt "label for issue-submission reason"
+msgid "Merchant Did Not Accept Pre-Paid Card"
+msgstr ""
+
+#: issue_submission/components/strings.py:949
+msgctxt "label for issue-submission reason"
+msgid "Lost Pre-Paid Card"
+msgstr ""
+
+#: issue_submission/components/strings.py:951
+msgctxt "label for issue-submission reason"
+msgid "Getting Paid"
+msgstr ""
+
+#: issue_submission/components/strings.py:953
+msgctxt "label for issue-submission reason"
+msgid "Bonus Incentives"
+msgstr ""
+
+#: issue_submission/components/strings.py:955
+msgctxt "label for issue-submission reason"
+msgid "Instant Deposit"
+msgstr ""
+
+#: issue_submission/components/strings.py:957
+msgctxt "label for issue-submission reason"
+msgid "Prepaid Card"
+msgstr ""
+
+#: issue_submission/components/strings.py:959
+msgctxt "label for issue-submission reason"
+msgid "Tips"
+msgstr ""
+
+#: issue_submission/components/strings.py:961
+msgctxt "label for issue-submission reason"
+msgid "We take safety and security very seriously. If you've felt at risk for your safety at any point during the order or delivery process, please contact the proper authorities and let us know immediately. Again, only use this point of contact if you have felt at risk for your safety."
+msgstr ""
+
+#: issue_submission/components/strings.py:963
+msgctxt "label for issue-submission reason"
+msgid "Delivery Support"
+msgstr ""
+
+#: issue_submission/components/strings.py:965
+msgctxt "label for issue-submission reason"
+msgid "Feedback and Ratings"
+msgstr ""
+
+#: issue_submission/components/strings.py:967
+msgctxt "label for issue-submission reason"
+msgid "Signup and Orientation"
+msgstr ""
+
+#: issue_submission/components/strings.py:969
+msgctxt "label for issue-submission reason"
+msgid "Earnings"
+msgstr ""
+
+#: issue_submission/components/strings.py:971
+msgctxt "label for issue-submission reason"
+msgid "Technical App Issue"
+msgstr ""
+
+#: issue_submission/components/strings.py:976
+msgctxt "customer unavailable deflection issue"
+msgid "What if the customer is unvailable?"
+msgstr ""
+
+#: issue_submission/components/strings.py:981
+msgctxt "wrong drop off address deflection issue"
+msgid "What if the customer wants to change the order of the drop off address?"
+msgstr ""
+
+#: issue_submission/components/strings.py:986
+msgctxt "blitz questions deflection issue"
+msgid "Blitz Pricing"
+msgstr ""
+
+#: issue_submission/components/strings.py:991
+msgctxt "hot spots deflection issue"
+msgid "Hot Spots"
+msgstr ""
+
+#: issue_submission/components/strings.py:996
+msgctxt "cancelled/replanned delivery deflection issue"
+msgid "What if a delivery is canceled after I complete the pickup?"
+msgstr ""
+
+#: issue_submission/components/strings.py:1001
+msgctxt "my rating deflection issue"
+msgid "How do ratings work?"
+msgstr ""
+
+#: issue_submission/components/strings.py:1006
+msgctxt "courier update password deflection issue"
+msgid "What should I do if I forgot or need to reset my password?"
+msgstr ""
+
+#: issue_submission/components/strings.py:1011
+msgctxt "courier update vehicle deflection issue"
+msgid "Can I change my vehicle?"
+msgstr ""
+
+#: issue_submission/components/strings.py:1016
+msgctxt "courier update address deflection issue"
+msgid "Changing your address"
+msgstr ""
+
+#: issue_submission/components/strings.py:1021
+msgctxt "courier update bank account info deflection issue"
+msgid "Changing your bank information"
+msgstr ""
+
+#: issue_submission/components/strings.py:1026
+msgctxt "courier tax form deflection issue"
+msgid "How do I file my taxes?"
+msgstr ""
+
+#: issue_submission/components/strings.py:1031
+msgctxt "courier background check status deflection issue"
+msgid "Background Checks"
+msgstr ""
+
+#: issue_submission/components/strings.py:1036
+msgctxt "market change deflection issue"
+msgid "Can I change markets?"
+msgstr ""
+
+#: issue_submission/components/strings.py:1041
+msgctxt "direct deposit setup deflection issue"
+msgid "How do I set up my direct deposit and recieve my earnings?"
+msgstr ""
+
+#: issue_submission/components/strings.py:1046
+msgctxt "cancelled delivery deflection issue"
+msgid "If an order is canceled am I still paid?"
+msgstr ""
+
+#: issue_submission/components/strings.py:1051
+msgctxt "chained/batched deliveries deflection issue"
+msgid "Batched and Chained Deliveries"
+msgstr ""
+
+#: issue_submission/components/strings.py:1056
+msgctxt "bonus questions deflection issue"
+msgid "Incentives and Bonuses and Guarantees"
+msgstr ""
+
+#: issue_submission/components/strings.py:1061
+msgctxt "instant deposit setup deflection issue"
+msgid "How do I set up instant deposits"
+msgstr ""
+
+#: issue_submission/components/strings.py:1066
+msgctxt "delayed earnings deflection issue"
+msgid "How do Instant Deposits work?"
+msgstr ""
+
+#: issue_submission/components/strings.py:1071
+msgctxt "reimbursement deflection issue"
+msgid "Reimbursement Requests"
+msgstr ""
+
+#: issue_submission/components/strings.py:1076
+msgctxt "mearchant refused card deflection issue"
+msgid "Reimbursement Requests"
+msgstr ""
+
+#: issue_submission/components/strings.py:1081
+msgctxt "lost prepaid_card deflection issue"
+msgid "Get a new prepaid card"
+msgstr ""
+
+#: issue_submission/components/strings.py:1086
+msgctxt "tips deflection issue"
+msgid "Tips"
+msgstr ""
+
+#: issue_submission/components/strings.py:1091
+msgctxt "technical app issue deflection issue"
+msgid "I'm having technical issues with my app. What should I do?"
+msgstr ""
+
+#: zendesk/strings.py:13
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Postmates Delivery for {requester_name} from {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:18
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Postmates Pickup for {requester_name} from {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:24
+msgctxt "issue description for buyer reported issue in Zendesk ticket"
+msgid "Delivery was late"
+msgstr ""
+
+#: zendesk/strings.py:28
+msgctxt "issue description for buyer reported issue in Zendesk ticket"
+msgid "Question about authorization charge"
+msgstr ""
+
+#: zendesk/strings.py:32
+msgctxt "issue description for buyer reported issue in Zendesk ticket"
+msgid "Order was never delivered"
+msgstr ""
+
+#: zendesk/strings.py:36
+msgctxt "issue description for buyer reported issue in Zendesk ticket"
+msgid "Promo code issue"
+msgstr ""
+
+#: zendesk/strings.py:46
+#, python-brace-format
+msgctxt "issue description for buyer reported issue in Zendesk ticket"
+msgid "Accident or safety incident: {comment}{phone_number_copy}"
+msgstr ""
+
+#: zendesk/strings.py:53
+#, python-brace-format
+msgctxt "instructions for customer service agent to call the customer"
+msgid "Call customer at {phone_number}."
+msgstr ""
+
+#: zendesk/strings.py:60
+msgctxt "item issue description for buyer reported issue in Zendesk ticket"
+msgid "Damaged during delivery"
+msgstr ""
+
+#: zendesk/strings.py:64
+msgctxt "item issue description for buyer reported issue in Zendesk ticket"
+msgid "Missing from order"
+msgstr ""
+
+#: zendesk/strings.py:68
+msgctxt "item issue description for buyer reported issue in Zendesk ticket"
+msgid "Prepared incorrectly"
+msgstr ""
+
+#: zendesk/strings.py:72
+msgctxt "item issue description for buyer reported issue in Zendesk ticket"
+msgid "Poor food quality"
+msgstr ""
+
+#: zendesk/strings.py:76
+#, python-brace-format
+msgctxt "item issue description for buyer reported issue in Zendesk ticket"
+msgid "{item_comment}"
+msgstr ""
+
+#: zendesk/strings.py:82
+#, python-brace-format
+msgctxt "item issue description for buyer reported issue in Zendesk ticket"
+msgid "{description}. Comment: {item_comment}"
+msgstr ""
+
+#: zendesk/strings.py:89 zendesk/strings.py:117
+msgctxt "item issue description for merchant reported issue in Zendesk ticket"
+msgid "Unavailable"
+msgstr ""
+
+#: zendesk/strings.py:93 zendesk/strings.py:123
+msgctxt "item issue description for merchant reported issue in Zendesk ticket"
+msgid "Unavailable Indefinitely"
+msgstr ""
+
+#: zendesk/strings.py:97 zendesk/strings.py:113
+msgctxt "item issue description for merchant reported issue in Zendesk ticket"
+msgid "Change Price"
+msgstr ""
+
+#: zendesk/strings.py:101
+msgctxt "item issue description for merchant reported issue in Zendesk ticket"
+msgid "Special instructions"
+msgstr ""
+
+#: zendesk/strings.py:105 zendesk/strings.py:109
+msgctxt "item issue description for merchant reported issue in Zendesk ticket"
+msgid "Other issue"
+msgstr ""
+
+#: zendesk/strings.py:130
+msgctxt "issue description for merchant reported issue in Zendesk ticket"
+msgid "Cancel Order: Place closed"
+msgstr ""
+
+#: zendesk/strings.py:134
+msgctxt "issue description for merchant reported issue in Zendesk ticket"
+msgid "Cancel Order: Place too busy"
+msgstr ""
+
+#: zendesk/strings.py:138
+msgctxt "issue description for merchant reported issue in Zendesk ticket"
+msgid "Cancel Order: Other issue"
+msgstr ""
+
+#: zendesk/strings.py:142
+msgctxt "issue description for merchant reported issue in Zendesk ticket"
+msgid "Tablet hardware issue"
+msgstr ""
+
+#: zendesk/strings.py:146
+msgctxt "issue description for merchant reported issue in Zendesk ticket"
+msgid "Fax hardware issue"
+msgstr ""
+
+#: zendesk/strings.py:153
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "{place_name} Unhappy with Postmates"
+msgstr ""
+
+#: zendesk/strings.py:157
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "{place_name} Refused to Fulfill Order"
+msgstr ""
+
+#: zendesk/strings.py:161 zendesk/strings.py:165 zendesk/strings.py:169
+#: zendesk/strings.py:173 zendesk/strings.py:177 zendesk/strings.py:181
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "API Order Support for {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:185
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Failed Dispatch for {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:189
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Courier Triggered Personal Emergency Cancel After Being Pickup Immenent on API Partner Job"
+msgstr ""
+
+#: zendesk/strings.py:194
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "{place_name} reported as permanently closed"
+msgstr ""
+
+#: zendesk/strings.py:198
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "{place_name} reported as having wrong hours"
+msgstr ""
+
+#: zendesk/strings.py:202
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "{place_name} reported as having website error"
+msgstr ""
+
+#: zendesk/strings.py:206
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "{place_name} has the wrong phone number listed"
+msgstr ""
+
+#: zendesk/strings.py:210
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Ongoing API Job Issue: {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:214
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Courier committed pex fraud for job"
+msgstr ""
+
+#: zendesk/strings.py:222
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Courier Review Required"
+msgstr ""
+
+#: zendesk/strings.py:226
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Job Screen Required"
+msgstr ""
+
+#: zendesk/strings.py:232
+#, python-brace-format
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "{place_name} Partner Refused Order"
+msgstr ""
+
+#: zendesk/strings.py:239
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Merchant Unhappy"
+msgstr ""
+
+#: zendesk/strings.py:243
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Merchant Permanently Closed"
+msgstr ""
+
+#: zendesk/strings.py:247
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Merchant Wrong Hours"
+msgstr ""
+
+#: zendesk/strings.py:251
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Website Error"
+msgstr ""
+
+#: zendesk/strings.py:255
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Wrong or Disconnected Number"
+msgstr ""
+
+#: zendesk/strings.py:259
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Canceled Order Reimbursement"
+msgstr ""
+
+#: zendesk/strings.py:264
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Partner Merchant Refused"
+msgstr ""
+
+#: zendesk/strings.py:268
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Merchant Refused Order"
+msgstr ""
+
+#: zendesk/strings.py:274
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Olo Rails Not Configured"
+msgstr ""
+
+#: zendesk/strings.py:278
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Olo No Location Onboarding"
+msgstr ""
+
+#: zendesk/strings.py:282
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Olo POS Transmission Failure"
+msgstr ""
+
+#: zendesk/strings.py:286
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Olo Restaurant Unavailable"
+msgstr ""
+
+#: zendesk/strings.py:290
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Olo Temporarily Unavailable"
+msgstr ""
+
+#: zendesk/strings.py:294
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Olo Invalid Pos Configuration"
+msgstr ""
+
+#: zendesk/strings.py:298
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Olo Invalid Menu Mapping"
+msgstr ""
+
+#: zendesk/strings.py:305
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Chipotle No Online Ordering"
+msgstr ""
+
+#: zendesk/strings.py:309
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Chipotle Site Key Missing"
+msgstr ""
+
+#: zendesk/strings.py:313
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Chipotle Restaurant Unavailable"
+msgstr ""
+
+#: zendesk/strings.py:317
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Chipotle Order Not Submitted"
+msgstr ""
+
+#: zendesk/strings.py:321
+msgctxt "Zendesk ticket subject for reported issues"
+msgid "Chipotle Order Not Submitted To Restaurant"
+msgstr ""
+
+#: zendesk/strings.py:548
+#, python-brace-format
+msgid "A {reporter_type} reported that {place_name} refused to fulfill an order."
+msgstr ""
+
+#: zendesk/strings.py:550
+#, python-brace-format
+msgid "A {reporter_type} reported the following about {place_name}: Customer Not Available"
+msgstr ""
+
+#: zendesk/strings.py:552
+#, python-brace-format
+msgid "A {reporter_type} reported the following about {place_name}: Order Damaged"
+msgstr ""
+
+#: zendesk/strings.py:554
+#, python-brace-format
+msgid "A {reporter_type} reported the following about {place_name}: Merchant Wrong Address"
+msgstr ""
+
+#: zendesk/strings.py:556
+#, python-brace-format
+msgid "A {reporter_type} reported the following about {place_name}: Personal Emergency"
+msgstr ""
+
+#: zendesk/strings.py:558
+#, python-brace-format
+msgid "A {reporter_type} reported the following about {place_name}: App/Equipment Issue"
+msgstr ""
+
+#: zendesk/strings.py:560
+#, python-brace-format
+msgid "A {reporter_type} reported the following about {place_name}: Vehicle Issue"
+msgstr ""
+
+#: zendesk/strings.py:562
+#, python-brace-format
+msgid "A {reporter_type} reported the following about {place_name}: Pex Fraud Issue"
+msgstr ""
+
+#: zendesk/strings.py:564
+#, python-brace-format
+msgid "A {reporter_type} reported the following about {place_name}: Courier Cancel"
+msgstr ""
+
+#: zendesk/strings.py:568
+#, python-brace-format
+msgid ""
+"\n"
+"    Place ({place_name}): {place_godmode_url}\n"
+"    Job: {job_godmode_url}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:577
+msgid ""
+"\n"
+"            1. Verify that the merchant's hours are incorrect by checking Google, Yelp, Twitter, their website, calling their phone line, etc.\n"
+"\n"
+"            2. If the hours are wrong, update the hours and select \"Yes\" for \"Was an update required?\" and resolve the ticket.  Leave a comment in the Internal notes that you updated their hours based on however you found the update.\n"
+"\n"
+"            3. If the hours are not wrong, select \"No\" for \"Was an update required?\" and resolve the ticket.\n"
+"            "
+msgstr ""
+
+#: zendesk/strings.py:587
+msgid ""
+"\n"
+"            1. Verify that the merchant is permanently closed by checking Google, Yelp, Twitter, their website, etc.\n"
+"\n"
+"            2. If they are permanently closed, deactivate the merchant. Add a note on what you did to verify that on the merchant page and the Zendesk ticket in the Internal Notes. Select \"Yes\" for \"Was an update required?\" and resolve the ticket.\n"
+"\n"
+"            3. If they are not permanently closed, ensure their hours are correct, and select \"No\" for \"Was an update required?\"\n"
+"            "
+msgstr ""
+
+#: zendesk/strings.py:597
+msgid ""
+"\n"
+"            1. Verify that you see an error when attempting to order through the merchant's website.\n"
+"\n"
+"            2. If you do not see an error, complete the online order, select \"No\" for \"Was an update required?\" and resolve the ticket.\n"
+"\n"
+"            3. If you do see an error when ordering, call the merchant, place the order over the phone, and notify the merchant of the website error. Select \"Yes\" for \"Was an update required?\" and resolve the ticket.\n"
+"            "
+msgstr ""
+
+#: zendesk/strings.py:607
+msgid ""
+"\n"
+"            1. Verify that the merchant's phone number is incorrect by comparing the phone number listed in Gmode to the number found in Google.\n"
+"\n"
+"            2. If the number is incorrect, find the correct number, update the place page, select \"Yes\" for \"Was an update required?\" and submit the ticket as \"Solved.\"\n"
+"\n"
+"            3. If the number was correct, select \"No\" for \"Was an update required?\" and submit the ticket as solved.\n"
+"            "
+msgstr ""
+
+#: zendesk/strings.py:617
+msgid ""
+"\n"
+"            1. Call the merchant using the phone number listed in Gmode.\n"
+"\n"
+"            2. Verify with a store manager that they are willing to fulfill Postmates orders. Find out if there are any issues with the service that they are aware of, and do what you can to rectify them.\n"
+"\n"
+"            3. If the store is unwilling to fulfill Postmates orders, deactivate the place.\n"
+"\n"
+"            4. If the store is willing to fulfill Postmates orders, resolve the ticket.\n"
+"            "
+msgstr ""
+
+#: zendesk/strings.py:631
+msgid ""
+"\n"
+"        1. Navigate to the place link above.\n"
+"    \n"
+"        2. Click ‘Credit Merchant Place’, enter the total amount listed in the ticket, and select reason ‘Order Cancellation’.\n"
+"    \n"
+"        3. Then, resolve this ticket.\n"
+"    \n"
+"        Merchants can confirm reimbursement requests have been approved and are applied to their next payout from within their dashboard under ‘Home’ > ‘Payments’ > ‘Adjustments’.\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:643
+#, python-brace-format
+msgid "Check if {place_name} Needs Credit for Return Order"
+msgstr ""
+
+#: zendesk/strings.py:647
+#, python-brace-format
+msgid "New Partner Place Storefront: {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:651
+#, python-brace-format
+msgid "New Partner Addendum: {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:655
+msgid "Proactive LOS"
+msgstr ""
+
+#: zendesk/strings.py:659
+#, python-brace-format
+msgid ""
+"\n"
+"    Hi Postmates,\n"
+"\n"
+"    I'd like to report the following about my recent order from {merchant}:\n"
+"\n"
+"    {issues_description}\n"
+"\n"
+"    Thank you.\n"
+"\n"
+"    {customer_first_name}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:675
+#, python-brace-format
+msgid ""
+"\n"
+"        Hi Postmates,\n"
+"\n"
+"        I have a question/issue with the following: {issue_type_label}.\n"
+"\n"
+"        {customer_comment}\n"
+"\n"
+"        Thank you,\n"
+"\n"
+"        {customer_first_name}\n"
+"        {phone_number}\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:690
+#, python-brace-format
+msgid ""
+"\n"
+"    {place_name} has reported the following issues:\n"
+"\n"
+"    {issues_description}{job_link}{catalog_link}\n"
+"\n"
+"    Thank you.\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:700
+#, python-brace-format
+msgid ""
+"\n"
+"    Proactive Live Order Support\n"
+"\n"
+"    Issue Triggered:\n"
+"    {issues_description}\n"
+"\n"
+"    Job:\n"
+"    {job_urls}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:712
+#, python-brace-format
+msgid ""
+"\n"
+"    Proactive Live Order Support\n"
+"\n"
+"    Postmate wants help. Call the Postmate.\n"
+"\n"
+"    Opening script:\n"
+"    Hi _____. This is _____ calling from Postmates on a recorded line for Quality and Training purposes. You notified us that you need help on this delivery, how may I assist you?\n"
+"\n"
+"    Issue Triggered:\n"
+"    {issues_description}\n"
+"\n"
+"    Job:\n"
+"    {job_urls}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:729
+#, python-brace-format
+msgid ""
+"\n"
+"    Proactive Live Order Support\n"
+"\n"
+"    Postmate responded no help needed.\n"
+"\n"
+"    Issue Triggered:\n"
+"    {issues_description}\n"
+"\n"
+"    Job:\n"
+"    {job_urls}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:744
+#, python-brace-format
+msgid ""
+"\n"
+"        Proactive Live Order Support\n"
+"\n"
+"        Postmate has not responded to the notification for over 5 minutes. Call the Postmate.\n"
+"\n"
+"        Opening script:\n"
+"        Hi _____. This is _____ calling from Postmates on a recorded line for Quality and Training purposes. We wanted to check in and see if you were experiencing any issues with the delivery, how may I assist you?\n"
+"\n"
+"        Issue Triggered:\n"
+"        {issues_description}\n"
+"\n"
+"        Job:\n"
+"        {job_urls}\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:762
+#, python-brace-format
+msgid ""
+"\n"
+"    Proactive Live Order Support\n"
+"\n"
+"    Push Notification sent to Postmate.\n"
+"\n"
+"    Issue Triggered:\n"
+"    {issues_description}\n"
+"\n"
+"    Job:\n"
+"    {job_urls}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:789
+#, python-brace-format
+msgid ""
+"\n"
+"        THIS TICKET WAS {resolution_type} RESOLVED BY HELP CENTER\n"
+"\n"
+"        Issues Reported:\n"
+"\n"
+"        {issues_description}\n"
+"\n"
+"        Delivery Credit: {delivery_credit_description}\n"
+"        Refund: {refund_description}\n"
+"        Future Credit: {future_general_credit_description}{additional_instructions}\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:807
+#, python-brace-format
+msgid ""
+"\n"
+"    {salutation},\n"
+"\n"
+"    {policy_ack}\n"
+"\n"
+"    {policy_explanation}\n"
+"\n"
+"    {cr_action}\n"
+"\n"
+"    {adjustment_intro}\n"
+"    {adjustments}\n"
+"\n"
+"    {outro}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:825
+#, python-brace-format
+msgid ""
+"\n"
+"    {salutation},\n"
+"\n"
+"    {policy_ack} {cr_action}\n"
+"\n"
+"    {adjustment_intro}\n"
+"    {adjustments}{adjustments_followup}\n"
+"\n"
+"    {outro}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:839
+#, python-brace-format
+msgid "Thanks again for letting us know about what was missing from your {place_name} order."
+msgstr ""
+
+#: zendesk/strings.py:844
+#, python-brace-format
+msgid "Thanks again for letting us know about the wrong item you received with your {place_name} order."
+msgstr ""
+
+#: zendesk/strings.py:849 zendesk/strings.py:889
+#, python-brace-format
+msgid "Thanks again for letting us know that your order from {place_name} was incorrectly prepared."
+msgstr ""
+
+#: zendesk/strings.py:854 zendesk/strings.py:894
+#, python-brace-format
+msgid "Thanks again for letting us know you received an item you told us you were allergic to with your {place_name} order."
+msgstr ""
+
+#: zendesk/strings.py:859
+#, python-brace-format
+msgid "Thanks again for letting us know you had issues with the quality of your order from {place_name}."
+msgstr ""
+
+#: zendesk/strings.py:864 zendesk/strings.py:899
+#, python-brace-format
+msgid "Thanks again for letting us know your order from {place_name} was damaged."
+msgstr ""
+
+#: zendesk/strings.py:869
+#, python-brace-format
+msgid "Thanks again for letting us know about the issues you had with your recent order from {place_name}."
+msgstr ""
+
+#: zendesk/strings.py:874
+#, python-brace-format
+msgid "Thanks again for letting us know about your missing order from {place_name}."
+msgstr ""
+
+#: zendesk/strings.py:879
+#, python-brace-format
+msgid "Thanks again for letting us know about the issues you had with your recent order from {place_name}. Again, I'm sorry your delivery didn't go as planned. "
+msgstr ""
+
+#: zendesk/strings.py:884
+#, python-brace-format
+msgid "Thanks again for letting us know about your wrong order from {place_name}."
+msgstr ""
+
+#: zendesk/strings.py:904
+#, python-brace-format
+msgid "Thanks again for letting us know that your order from {place_name} was late."
+msgstr ""
+
+#: zendesk/strings.py:909
+msgid "For your records, here's a copy of the refund for your order. This should be reflected in your bank account within the next 5-10 days."
+msgstr ""
+
+#: zendesk/strings.py:914
+msgid "For your records, here's the credit we applied to your account."
+msgstr ""
+
+#: zendesk/strings.py:919
+msgid "For your records, here's the delivery fee credit we applied to your account."
+msgstr ""
+
+#: zendesk/strings.py:924
+msgid "For your records, here's a copy of the refund and credit for your order. This should be reflected in your bank account within the next 5-10 days."
+msgstr ""
+
+#: zendesk/strings.py:928
+msgid ""
+"\n"
+"    So your deliveries go smoothly in the future, be sure to double-check that:\n"
+"\n"
+"    Your address (including suite/apartment number) and phone number are up to date in your app.\n"
+"    Your phone is set up to receive SMS messages and push notifications from the Postmates app.\n"
+"    You’ve shared any special instructions (like “Please leave food at front desk!”) with your Postmate.\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:939
+msgid "We've made the following adjustments to your order:"
+msgstr ""
+
+#: zendesk/strings.py:944
+#, python-brace-format
+msgid "{refund_amount} refund"
+msgstr ""
+
+#: zendesk/strings.py:949
+#, python-brace-format
+msgid "{future_credit_amount} credit"
+msgstr ""
+
+#: zendesk/strings.py:954
+#, python-brace-format
+msgid "{delivery_credit_amount} delivery fee credit"
+msgstr ""
+
+#: zendesk/strings.py:959
+#, python-brace-format
+msgid "You can visit this page ({credits_page_link}) to see your credit, as well as any other credits that have been applied to your account."
+msgstr ""
+
+#: zendesk/strings.py:964
+#, python-brace-format
+msgid "The total for your order is {order_total}."
+msgstr ""
+
+#: zendesk/strings.py:969
+msgid "If you have any other questions or concerns, feel free to reach back out. Thank you for choosing Postmates!"
+msgstr ""
+
+#: zendesk/strings.py:974
+msgid "Again, I'm sorry we didn't meet your expectations this time. If you have any other questions or concerns, feel free to reach back out. I appreciate your patience, and thank you for choosing Postmates!"
+msgstr ""
+
+#: zendesk/strings.py:980
+#, python-brace-format
+msgid ""
+"\n"
+"    {salutation},\n"
+"\n"
+"    {ticket_ack} {apology}\n"
+"\n"
+"    {rejection_reason}\n"
+"\n"
+"    {outro}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:993
+#, python-brace-format
+msgid "Thank you for reaching out to us about your order from {place_name}."
+msgstr ""
+
+#: zendesk/strings.py:997
+msgid "I'm sorry to hear that you had trouble with your delivery."
+msgstr ""
+
+#: zendesk/strings.py:1001
+msgid "I'm sorry to hear that your delivery was late."
+msgstr ""
+
+#: zendesk/strings.py:1005
+msgid "I'm sorry to hear that you didn't receive your delivery."
+msgstr ""
+
+#: zendesk/strings.py:1010
+#, python-brace-format
+msgid "When you placed your order, we gave you a quoted delivery time of {quoted_delivery_time}. After looking into your account, I can confirm that it appears to have arrived within that timeframe."
+msgstr ""
+
+#: zendesk/strings.py:1015
+msgid "Every Postmates experience should be exceptional, so we'll be sure to take a look at your order to see what went wrong. We'll do everything we can to make sure this doesn't happen again."
+msgstr ""
+
+#: zendesk/strings.py:1020
+msgid "After looking into your account, I can see that you've had issues with a few of your orders in the past. At this time, we aren't able to provide any additional refunds or credits."
+msgstr ""
+
+#: zendesk/strings.py:1025
+#, python-brace-format
+msgid "We know it's disappointing when {item_or_order} {flaw}. Every Postmates experience should be exceptional, so we'll do everything we can to make sure this doesn't happen again."
+msgstr ""
+
+#: zendesk/strings.py:1030
+msgid "items in your order"
+msgstr ""
+
+#: zendesk/strings.py:1036
+msgid "your order"
+msgstr ""
+
+#: zendesk/strings.py:1041
+#, python-brace-format
+msgid "are {first} and {second}"
+msgstr ""
+
+#: zendesk/strings.py:1045
+#, python-brace-format
+msgid "are {first}, and {second}"
+msgstr ""
+
+#: zendesk/strings.py:1049
+msgid "are"
+msgstr ""
+
+#: zendesk/strings.py:1053
+msgid "is"
+msgstr ""
+
+#: zendesk/strings.py:1057
+msgid "damaged"
+msgstr ""
+
+#: zendesk/strings.py:1061
+msgid "of poor quality"
+msgstr ""
+
+#: zendesk/strings.py:1065
+msgid "missing"
+msgstr ""
+
+#: zendesk/strings.py:1069
+msgid "wrong"
+msgstr ""
+
+#: zendesk/strings.py:1073
+msgid "incorrect"
+msgstr ""
+
+#: zendesk/strings.py:1077
+msgid "contain items you are allergic to"
+msgstr ""
+
+#: zendesk/strings.py:1081
+msgid "contains items you are allergic to"
+msgstr ""
+
+#: zendesk/strings.py:1086
+#, python-brace-format
+msgid ""
+"\n"
+"    It appears that your Postmate arrived at the delivery address on the order and waited for at least 5 minutes, but they weren't able to connect with you. We notified you via text message and push notification that your order was about to be delivered. {charge_string}\n"
+"    \n"
+"    After your Postmate arrives at your location, they will wait 5 minutes while trying to contact you. Meanwhile, we'll send you a text message and notify you in your app.\n"
+"\n"
+"    To make sure your Postmate is able to reach you, it's good to double-check the following:\n"
+"\n"
+"    * Your address (including suite/apartment number) and phone number are up to date in your app.\n"
+"    * Your phone is set up to receive SMS messages and push notifications from the Postmates app.\n"
+"    * You've shared any special instructions (like \"Please leave food at front desk!\") with your Postmate.\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:1101
+#, python-brace-format
+msgid ""
+"\n"
+"    After looking into your account, however, I see that there have been other times when you've missed your Postmate and we provided a full refund. {charge_string}\n"
+"\n"
+"    After your Postmate arrives at your location, they will wait 5 minutes while trying to contact you. Meanwhile, we'll send you a text message and notify you in your app.\n"
+"\n"
+"    To make sure your Postmate is able to reach you, it's good to double-check the following:\n"
+"\n"
+"    * Your address (including suite/apartment number) and phone number are up to date in your app.\n"
+"    * Your phone is set up to receive SMS messages and push notifications from the Postmates app.\n"
+"    * You've shared any special instructions (like \"Please leave food at front desk!\") with your Postmate.\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:1116
+msgid "Since your order was already placed and paid for, you were charged the full amount for your order and delivery."
+msgstr ""
+
+#: zendesk/strings.py:1121
+#, python-brace-format
+msgid "Since your order was already placed and paid for, you were charged the full amount for your order and delivery, plus a {cancellation_fee_amount} cancellation fee."
+msgstr ""
+
+#: zendesk/strings.py:1126
+msgid "This time, we have charged you for your order."
+msgstr ""
+
+#: zendesk/strings.py:1132
+#, python-brace-format
+msgid "This time, we have charged you for your order plus a {cancellation_fee_amount} cancellation fee."
+msgstr ""
+
+#: zendesk/strings.py:1138
+#, python-brace-format
+msgid ""
+"\n"
+"        There are a few reasons why your order was unable to be delievered to you by your Postmate:\n"
+"\n"
+"        * The account owner must be 21 or older\n"
+"        * The account owner must show a valid photo ID upon delivery\n"
+"        * The account owner must be present to accept the order\n"
+"\n"
+"        Unfortunately, we have to charge a cancellation fee in the amount of {cancellation_fee_amount} to cover the time your Postmate spent on this delivery.\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:1151
+msgid "If you have any more details you'd like to share about this order, please reply to this email. Again, we appreciate you reaching out. Your feedback helps us make Postmates better."
+msgstr ""
+
+#: zendesk/strings.py:1155
+#, python-brace-format
+msgid ""
+"\n"
+"    We've made the following adjustments to your order:\n"
+"\n"
+"    {items_refund_adjustment}\n"
+"\n"
+"    {adjustment_followup}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:1166
+#, python-brace-format
+msgid ""
+"\n"
+"    {issue_description}\n"
+"\n"
+"    Job: {job_godmode_url}\n"
+"\n"
+"    Reported By: {reported_by}\n"
+"\n"
+"    Reporter Notes: {ej_js_open_note}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:1179
+#, python-brace-format
+msgid ""
+"\n"
+"    Flag Reasons: {flag_reasons}\n"
+"\n"
+"    Job: {job_godmode_url}\n"
+"    \n"
+"    Courier: {courier_godmode_url}\n"
+"    \n"
+"    PEX Auditor: {pex_auditor_url}\n"
+"\n"
+"    Reported By: {reported_by}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:1192
+#, python-brace-format
+msgid ""
+"\n"
+"    Flag Reasons: {flag_reasons}\n"
+"\n"
+"    Job: {job_godmode_url}\n"
+"\n"
+"    Customer: {customer_godmode_url}\n"
+"    \n"
+"    Billing Zip: {billing_zip}\n"
+"    \n"
+"    Dropoff Zip: {dropoff_zip}\n"
+"    \n"
+"    Verified?: {verified}\n"
+"    \n"
+"    Whitepages phone: {whitepages_phone_url}\n"
+"    \n"
+"    Whitepages address: {whitepages_address_url}\n"
+"\n"
+"    Reported By: {reported_by}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:1213
+#, python-brace-format
+msgid ""
+"\n"
+"    This is an internal ticket automatically generated when a delivery was canceled. To settle up with the merchant, please follow these instructions:\n"
+"\n"
+"    1. Click here to open the Job Page: {job_godmode_url}\n"
+"\n"
+"    2. Determine if the order is for prepared food or retail items. If the order is retail, add an internal note to the ticket (\"RETAIL\"), add 0 to the \"Amount Paid via PEX\" field and mark the ticket as solved. If it is prepared food, proceed to number 3.\n"
+"\n"
+"    3. Get a PEX card from a Team Lead by tagging @cs-leads in the customer_service_nash room and ensure with them that it has adequate funds for the purchase.\n"
+"\n"
+"    4. Call the merchant from the Job Page by clicking the merchant phone number under the \"From\" section. If no phone number is present, Google the merchant name and address and manually dial the merchant.\n"
+"\n"
+"    5. Tell the merchant that you are calling from Postmates and need to cancel an order. Offer to pay for the order over the phone with the PEX card if they have already prepared it.\n"
+"\n"
+"    6. Thank the merchant, apologize for the inconvenience, and hang up.\n"
+"\n"
+"    7. Give the PEX card back to the Team Lead.\n"
+"\n"
+"    8. Add notes to the right hand side of the job page that say \"Paid With PEX $X.XX\" for our internal record. Use Snippet \";pwp\" to ensure consistency with the note. If they did not require payment, please note that as well and put $0 for the charge. Be sure NOT to change the form from PEX Payout as we must capture the total.\n"
+"\n"
+"    9. In the Zendesk ticket, update the Amount Paid via PEX field with the amount paid to the merchant.\n"
+"\n"
+"    10. Add an internal note to this ticket that says \"Resolved\" so we know that you took action on this ticket.\n"
+"\n"
+"    11. Submit this ticket as solved. If the merchant did not answer, submit this ticket as Pending for later review.\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:1242
+#, python-brace-format
+msgid ""
+"\n"
+"        This is an internal ticket automatically generated when a delivery was refused. To settle up with the merchant, please follow these instructions:\n"
+"    \n"
+"        1. Click here to open the Place Page: {place_godmode_url}\n"
+"    \n"
+"        2. Set the page to inactive while you outreach to the DM\n"
+"    \n"
+"        3. Determine if the merchant is a single or multi location by opening the Merchant Account\n"
+"    \n"
+"        4. Call the merchant from the Job Page by clicking the merchant phone, ask to speak to a DM\n"
+"    \n"
+"        5. Tell the merchant that you are calling from Postmates and would like to confirm the new pre payment process implemented\n"
+"    \n"
+"        6. If you are unable to reach the merchant, the place stays deactivated until the DM can be reached.\n"
+"    \n"
+"        7. Add notes to the place page: Rejecting Orders - Deactivated until resolved\n"
+"    \n"
+"        8. In the Zendesk ticket: Add an internal note to this ticket that says “Unresolved - Could not reach DM” so we know that you took action on this ticket.\n"
+"    \n"
+"        9. Submit this ticket as Pending for later review + outreach\n"
+"    \n"
+"        10. If you reach the DM confirm they understand ACH, make sure they have added a bank account, and reactivate the place page.\n"
+"    \n"
+"        11. Add notes to the place page: Rejecting Orders - Spoke to [Name] and reactivated\n"
+"    \n"
+"        12. In the Zendesk ticket: Add an internal note to this ticket that says \"Resolved - Spoke to [Name]\" so we know that you took action on this ticket.\n"
+"    \n"
+"        13. Submit this ticket as solved\n"
+"    \n"
+"        14. If the merchant wishes to cancel their partnership due to new new requirements follow Churn SOP\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:1277
+#, python-brace-format
+msgid ""
+"\n"
+"        This Message was automatically generated by the Help Center Service. Please follow these instructions to support this API Merchant.\n"
+"    \n"
+"        {place_name} or the Help Center Service has reported the following issue:\n"
+"    \n"
+"        No Postmate Assigned\n"
+"    \n"
+"        1. Click here to open the API Order Page: {job_godmode_url}\n"
+"    \n"
+"        2. Click here to open the API Customer Page (if applicable): {customer_godmode_url}\n"
+"    \n"
+"        3. Take appropriate action.\n"
+"    \n"
+"        4. Add Primary Issue Tag.\n"
+"    \n"
+"        5. Submit ticket as solved.\n"
+"    \n"
+"        Thank you!\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:1299
+#, python-brace-format
+msgid ""
+"\n"
+"    1. Click here to open the Job Page: {job_godmode_url}\n"
+"\n"
+"    2. Determine if the order is for prepared food or retail items. If the order is retail, add an internal note to the ticket (\"RETAIL\"), add 0 to the \"Amount Paid via PEX\" field and mark the ticket as solved. If it is prepared food, proceed to number 3.\n"
+"\n"
+"    3. Get a PEX card from a Team Lead by tagging @cs-leads in the customer_service_nash room and ensure with them that it has adequate funds for the purchase.\n"
+"\n"
+"    4. Call the merchant from the Job Page by clicking the merchant phone number under the \"From\" section. If no phone number is present, Google the merchant name and address and manually dial the merchant.\n"
+"\n"
+"    5. Tell the merchant that you are calling from Postmates and would like to pay for an order that the customer chose to cancel. Offer to pay for the order over the phone with the PEX card if they have already prepared it.\n"
+"\n"
+"    6. Thank the merchant, apologize for the inconvenience, and hang up.\n"
+"\n"
+"    7. Give the PEX card back to the Team Lead.\n"
+"\n"
+"    8. Add notes to the right-hand side of the job page: \"Paid With PEX $X.XX\" for our internal record. Use Snippet \";pwp\" to ensure consistency with the note. If they did not require payment, please note that as well and put $0 for the charge. Be sure NOT to change the form from PEX Payout as we must capture the total.\n"
+"\n"
+"    9. In the Zendesk ticket, update the Amount Paid via PEX field with the amount paid to the merchant.\n"
+"\n"
+"    10. Add an internal note to this ticket that says \"Resolved\" so we know that you took action on this ticket.\n"
+"\n"
+"    11. Submit this ticket as solved. If the merchant did not answer, submit this ticket as Pending for later review.\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:1326
+#, python-brace-format
+msgid ""
+"\n"
+"        1. Click here to open the Order Page: {job_godmode_url}\n"
+"    \n"
+"        2. Look at what was ordered and see which items were returnable (non-perishable). For example, if an order was for a burger, beer-battered shrimp, and a beer, the returnable item on this list is just the beer.\n"
+"    \n"
+"        3. If all of the items are returnable, the merchant is not owed any money. Please leave an internal note on the ticket and notate on the right side of the order page \"No credit needed for return delivery. Resolved.\" Enter $0 into the \"Amount of Credit for Return Order\" field and submit ticket as solved.\n"
+"    \n"
+"        4. If one or more of the items are non-returnable (aka perishable items), click on the \"Billing\" tab on the merchant page and credit the merchant for the item(s). Note: You are not crediting them for the items that did get returned.\n"
+"    \n"
+"        5. Leave a note on the right side of the Order Page and in the Internal Note on the ticket: \"Credited $X for Return Order for X Item(s).\" and enter the amount of credit issued into the \"Amount of Credit for Return Order\" field on the Zendesk Ticket.\n"
+"    \n"
+"        6. Submit ticket as solved.\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:1343
+#, python-brace-format
+msgid ""
+"\n"
+"        1. Click here to open the Place Page: {place_godmode_url}\n"
+"    \n"
+"        2. Verify Place hours on Details tab.\n"
+"    \n"
+"        3. Verify Foursquare ID is present on Details tab.\n"
+"    \n"
+"        4. Update icon and header images on the Photos tab.\n"
+"    \n"
+"        5. Verify the location's address and re-geocode on the Details tab.\n"
+"    \n"
+"        6. Set the correct timezone based on the address on the Details tab.\n"
+"    \n"
+"        7. Verify Place phone number is set to {place_phone} on Details tab.\n"
+"    \n"
+"        8. When all steps are complete, resolve this ticket.\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:1364
+#, python-brace-format
+msgid ""
+"\n"
+"        1. Click here to open the Merchant Page: {merchant_godmode_url}\n"
+"\n"
+"        2. Place Page UUID: {place_uuid}\n"
+"\n"
+"        3. Click here to reference the Salesforce opportunity:\n"
+"           {opportunity_url}\n"
+"\n"
+"        4. Click here to open the Menu Source: {menu_url}\n"
+"\n"
+"        5. Verify Menu Source matches merchant brand.\n"
+"            a. If NO, ie: Marco’s Pizza is added to Fatburger Merchant Account,\n"
+"               reach out to the seller by email and leave this ticket open until\n"
+"               resolved. Update Internal Notes with action taken.\n"
+"\n"
+"        6. Select “Link Place” on the unlinked UUID(s) associated on the\n"
+"           Merchant Account\n"
+"\n"
+"        7. Verify all categories, products, and option groups have been updated\n"
+"           and activated appropriately in Menu Manager\n"
+"\n"
+"        8. Publish catalog in Menu Manager\n"
+"\n"
+"        9. Update the place notes on newly onboarded UUID(s) with the\n"
+"           hashtag #NEW_ADDENDUM_CATALOG_COMPLETE\n"
+"\n"
+"        10. When all steps are complete, resolve this ticket.\n"
+"        "
+msgstr ""
+
+#: zendesk/strings.py:1395
+#, python-brace-format
+msgid ""
+"\n"
+"    {place_name}: {place_godmode_url}\n"
+"\n"
+"    {issue_type}: {issue_volume}\n"
+"    {issues_description}{instructions}\n"
+"    "
+msgstr ""
+
+#: zendesk/strings.py:1405
+msgctxt "when buyer's complaint is fully resolved"
+msgid "AUTOMATICALLY"
+msgstr ""
+
+#: zendesk/strings.py:1409
+msgctxt "when buyer's complaint is only partially resolved"
+msgid "PARTIALLY"
+msgstr ""
+
+#: zendesk/strings.py:1425
+#, python-brace-format
+msgctxt "how the the price of each item is adjusted to resolve buyer's complaint"
+msgid "{item_name}: {price_adjustment} removed from order total"
+msgstr ""
+
+#: zendesk/strings.py:1430
+#, python-brace-format
+msgctxt "how the the price of each item is adjusted to resolve buyer's complaint"
+msgid "{item_name}: Given you {price_adjustment} delivery fee only credit"
+msgstr ""
+
+#: zendesk/strings.py:1435
+#, python-brace-format
+msgctxt "how the the price of each item is adjusted to resolve buyer's complaint"
+msgid "{item_name}: Credit of {price_adjustment} available on your account for future use"
+msgstr ""
+
+#: zendesk/strings.py:1440
+#, python-brace-format
+msgctxt "a summary of buyer's complaint about their order on the item level"
+msgid "{item_name}: {item_issue_description}"
+msgstr ""
+
+#: zendesk/strings.py:1445
+#, python-brace-format
+msgctxt "automated credit or refund failed based on buyer's complaint"
+msgid "FAILED (Suggested: {credit_refund_amount})"
+msgstr ""
+
+#: zendesk/strings.py:1449
+msgctxt "automated credit or refund is not applicable based on buyer's complaint"
+msgid "NOT APPLICABLE"
+msgstr ""
+
+#: zendesk/strings.py:1453
+#, python-brace-format
+msgctxt "automated credit or refund issued based on buyer's complaint"
+msgid "ISSUED ({credit_refund_amount})"
+msgstr ""
+
+#: zendesk/strings.py:1457
+msgctxt "automated credit or refund rejected based on buyer's complaint"
+msgid "REJECTED"
+msgstr ""
+
+#: zendesk/strings.py:1461
+#, python-brace-format
+msgctxt "Question from buyer which has no job"
+msgid "Postmates Question from Customer {customer_name})"
+msgstr ""
+
+#: zendesk/strings.py:1467
+#, python-brace-format
+msgctxt "display number of minutes"
+msgid "{minute_count} minutes"
+msgstr ""
+
+#: zendesk/strings.py:1471
+msgctxt "single line of bullet point list"
+msgid "* {}"
+msgstr ""
+
+#: zendesk/strings.py:1475
+msgctxt "parallel phrase separator"
+msgid ", "
+msgstr ""
+
+#: zendesk/strings.py:1479
+msgctxt "parallel phrase separator"
+msgid " or "
+msgstr ""
+
+#: zendesk/strings.py:1484
+msgctxt "issue body separator for associating information on the next line in zendesk (spaces added for markdown formatting)"
+msgid ""
+"  \n"
+"  ↳ "
+msgstr ""
+
+#: zendesk/strings.py:1489
+msgctxt "customer salutation without first name provided"
+msgid "Hi"
+msgstr ""
+
+#: zendesk/strings.py:1493
+#, python-brace-format
+msgctxt "customer salutation with first name provided"
+msgid "Hi {first_name}"
+msgstr ""
+
+#: zendesk/strings.py:1498
+#, python-brace-format
+msgctxt "job detail page url"
+msgid "Job Detail: {job_godmode_url}"
+msgstr ""
+
+#: zendesk/strings.py:1502
+#, python-brace-format
+msgctxt "courier detail page url"
+msgid "Courier Detail: {courier_godmode_url}"
+msgstr ""
+
+#: zendesk/strings.py:1506
+#, python-brace-format
+msgctxt "Merchant catalog detail page url"
+msgid "Item Menu: {catalog_url}"
+msgstr ""
+
+#: zendesk/strings.py:1510
+msgctxt "Certain resource such as an url link is unavailable"
+msgid "Unavailable"
+msgstr ""
+
+#: zendesk/strings.py:1516
+msgctxt "Closed Issues Ticket Body"
+msgid "Ticket automatically closed because all issues were resolved."
+msgstr ""
+
+#: zendesk/strings.py:1522
+#, python-brace-format
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Online Order for {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:1526
+#, python-brace-format
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Substitution Needed for {customer_name}"
+msgstr ""
+
+#: zendesk/strings.py:1530
+#, python-brace-format
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Credit Card Required Order for {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:1534
+#, python-brace-format
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: General Merchant Issue for {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:1538
+#, python-brace-format
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Kiosk Order Issue for {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:1542
+#, python-brace-format
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Fax Order Issue for {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:1546
+#, python-brace-format
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Fax Send Failed for {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:1550
+#, python-brace-format
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: VIP Customer: {customer_name}"
+msgstr ""
+
+#: zendesk/strings.py:1554
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Restricted Item"
+msgstr ""
+
+#: zendesk/strings.py:1558
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Restricted Item: Tobacco"
+msgstr ""
+
+#: zendesk/strings.py:1562
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Restricted Item: Alcohol"
+msgstr ""
+
+#: zendesk/strings.py:1566
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Restricted Item: Marijuana"
+msgstr ""
+
+#: zendesk/strings.py:1570
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Restricted Item: Animals"
+msgstr ""
+
+#: zendesk/strings.py:1574
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Restricted Item: Illegal Items"
+msgstr ""
+
+#: zendesk/strings.py:1578
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Funding Request: Risk Review"
+msgstr ""
+
+#: zendesk/strings.py:1582
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Restricted Item: Gift Cards"
+msgstr ""
+
+#: zendesk/strings.py:1586
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Customer Not Available at Dropoff"
+msgstr ""
+
+#: zendesk/strings.py:1590
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Order Damaged at Dropoff"
+msgstr ""
+
+#: zendesk/strings.py:1594
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Customer Canceled at Dropoff"
+msgstr ""
+
+#: zendesk/strings.py:1598
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Substitution Requires Cancel"
+msgstr ""
+
+#: zendesk/strings.py:1602
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Postmate Equipment/App Issue at Dropoff"
+msgstr ""
+
+#: zendesk/strings.py:1606
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Postmate Vehicle Issue at Dropoff"
+msgstr ""
+
+#: zendesk/strings.py:1610
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Postmate Personal Emergency at Dropoff"
+msgstr ""
+
+#: zendesk/strings.py:1614
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Postmate Requests Additional Funds: $25"
+msgstr ""
+
+#: zendesk/strings.py:1618
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Postmate Requests Additional Funds: $50"
+msgstr ""
+
+#: zendesk/strings.py:1622
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Postmate Requests Additional Funds: $100"
+msgstr ""
+
+#: zendesk/strings.py:1626
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Postmate Requests Additional Funds: $200"
+msgstr ""
+
+#: zendesk/strings.py:1630
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: COT Order Needs Sub"
+msgstr ""
+
+#: zendesk/strings.py:1634
+msgctxt "Live Order Support(LOS) ticket subject"
+msgid "LOS: Customer Not Available"
+msgstr ""
+
+#: zendesk/strings.py:1640
+#, python-brace-format
+msgctxt "Merchant Zendesk ticket subject"
+msgid "Ongoing Job Issue: {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:1644
+#, python-brace-format
+msgctxt "Merchant Zendesk ticket subject"
+msgid "Place Issue: {place_name}"
+msgstr ""
+
+#: zendesk/strings.py:1648
+msgctxt "Merchant Zendesk ticket catalog url instructions"
+msgid "Locate item from the place link above."
+msgstr ""
+
+#: zendesk/strings.py:1652
+#, python-brace-format
+msgctxt "Merchant Zendesk ticket body to update item price"
+msgid "{issue}. Please update to {new_price}."
+msgstr ""
+
+#: zendesk/strings.py:1656
+#, python-brace-format
+msgctxt "Merchant Zendesk ticket template for each line"
+msgid "{name}: {description}"
+msgstr ""
+
+#: zendesk/strings.py:1660
+#, python-brace-format
+msgctxt "Merchant Zendesk ticket template for all options in a group for item"
+msgid "({group}: {options})"
+msgstr ""
+
+#: zendesk/strings.py:1664
+#, python-brace-format
+msgctxt "Merchant Zendesk ticket template for separating text with a hyphen"
+msgid "{name} - {description}"
+msgstr ""
+
+#: zendesk/strings.py:1670
+#, python-brace-format
+msgctxt "Place issue Zendesk ticket subject"
+msgid "{place_name} - {issue_copy}"
+msgstr ""
+
+#: zendesk/strings.py:1674
+#, python-brace-format
+msgctxt "Place issue Zendesk ticket body issue description"
+msgid "* {job_godmode_url}{issue_note}"
+msgstr ""
+
+#: zendesk/strings.py:1678
+#, python-brace-format
+msgctxt "Place issue Zendesk ticket body instructions"
+msgid ""
+"\n"
+"\n"
+"Steps to take:\n"
+"\n"
+"{instructions}"
+msgstr ""
+
+#: zendesk/strings.py:1682
+#, python-brace-format
+msgctxt "Place issue Zendesk ticket body summary"
+msgid ""
+"\n"
+"\n"
+"Total: {sum}\n"
+"Requesters: {emails}"
+msgstr ""
+
+#: zendesk/strings.py:1688
+#, python-brace-format
+msgctxt "To cancel an already reported Zendesk ticket"
+msgid "This request has been cancelled by {requester_type}"
+msgstr ""
+
+#: zendesk/strings.py:1694
+msgctxt "help_button_copy_context"
+msgid "Help"
+msgstr ""
+
+#: zendesk/strings.py:1697
+msgctxt "okay_button_copy_context"
+msgid "Okay"
+msgstr ""
+
+#: zendesk/strings.py:1701
+msgctxt "notification_support_needed_copy_context"
+msgid "We'll give you a call in roughly 5 minutes"
+msgstr ""
+
+#: zendesk/strings.py:1706
+msgctxt "notification_support_no_copy_context"
+msgid "You got this"
+msgstr ""
+
+#: zendesk/strings.py:1712
+msgctxt "pickup_started_standstill_header_context"
+msgid "Everything OK?"
+msgstr ""
+
+#: zendesk/strings.py:1716
+msgctxt "pickup_started_standstill_notify_context"
+msgid "We've noticed you've been standing still for a while. Please head to the pickup address shown in-app."
+msgstr ""
+
+#: zendesk/strings.py:1723
+msgctxt "pickup_imminent_standstill_header_context"
+msgid "what's up"
+msgstr ""
+
+#: zendesk/strings.py:1727
+msgctxt "pickup_imminent_standstill_notify_context"
+msgid "Once you have picked up the order, please head to the dropoff address show in-app."
+msgstr ""
+
+#: zendesk/strings.py:1734
+msgctxt "pickup_started_eta_drift_header_context"
+msgid "Everything OK?"
+msgstr ""
+
+#: zendesk/strings.py:1738
+msgctxt "pickup_started_eta_drift_notify_context"
+msgid "We've noticed you are heading in the wrong direction. Please head to the pickup address shown in-app."
+msgstr ""
+
+#: zendesk/strings.py:1745
+msgctxt "pickup_imminent_eta_drift_header_context"
+msgid "What's Up?"
+msgstr ""
+
+#: zendesk/strings.py:1749
+msgctxt "pickup_imminent_eta_drift_notify_context"
+msgid "You're near the pick up location, but we're noticing things might not be going as planned. Want to talk real quick?"
+msgstr ""
+
+#: zendesk/strings.py:1753
+#, python-brace-format
+msgid ""
+"\n"
+"    Proactive Live Order Support\n"
+"\n"
+"    Issue Triggered:\n"
+"    PLOS Trigger resolved by Delivery System\n"
+"\n"
+"    Job:\n"
+"    {job_urls}\n"
+"    "
+msgstr ""
+
+#: zendesk_article/views.py:28
+msgctxt "null article id error response"
+msgid "Article id cannot be null"
+msgstr ""
+
+#: zendesk_article/views.py:33
+msgctxt "Help center article vote 'accepted' response"
+msgid "Vote accepted for the article"
+msgstr ""
